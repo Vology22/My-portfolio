@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "যেকোনো ওয়েবসাইটে অ্যাক্সেস পান এবং আমাদের বিনামূল্যের ভিপিএন প্রক্সি এক্সটেনশনের মাধ্যমে বিজ্ঞাপন ব্লক করুন"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "ফ্রি ভিপিএন প্রক্সি এবং অ্যাড ব্লকার - প্ল্যানেট ভিপিএন"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "প্ল্যানেট ভিপিএন (বিটা) - ফ্রি ভিপিএন পরিষেবা"
+   }
+}

@@ -1,0 +1,51 @@
+2025/01/10-17:08:02.938 1238 Reusing MANIFEST C:\Users\gogov\AppData\Local\Microsoft\Edge\User Data\Default\Local Extension Settings\fjnehcbecaggobjholekjijaaekbnlgj/MANIFEST-000001
+2025/01/10-17:08:02.944 1238 Recovering log #4986
+2025/01/10-17:08:03.020 1238 Reusing old log C:\Users\gogov\AppData\Local\Microsoft\Edge\User Data\Default\Local Extension Settings\fjnehcbecaggobjholekjijaaekbnlgj/004986.log 
+2025/01/10-17:08:03.989 21a8 Level-0 table #4991: started
+2025/01/10-17:08:04.069 21a8 Level-0 table #4991: 1977708 bytes OK
+2025/01/10-17:08:04.071 21a8 Delete type=0 #4986
+2025/01/10-17:08:06.712 90b0 Compacting 1@0 + 1@1 files
+2025/01/10-17:08:06.735 90b0 Generated table #4992@0: 11 keys, 290581 bytes
+2025/01/10-17:08:06.735 90b0 Compacted 1@0 + 1@1 files => 290581 bytes
+2025/01/10-17:08:06.743 90b0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/01/10-17:08:06.747 90b0 Delete type=2 #4988
+2025/01/10-17:08:06.748 90b0 Delete type=2 #4991
+2025/01/10-17:13:46.730 21a8 Compacting 1@1 + 1@2 files
+2025/01/10-17:13:46.739 21a8 Generated table #4993@1: 54 keys, 379719 bytes
+2025/01/10-17:13:46.739 21a8 Compacted 1@1 + 1@2 files => 379719 bytes
+2025/01/10-17:13:46.740 21a8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/01/10-17:13:46.741 21a8 Delete type=2 #4975
+2025/01/10-17:13:46.741 21a8 Delete type=2 #4992
+2025/01/10-17:24:03.121 21a8 Level-0 table #4995: started
+2025/01/10-17:24:03.144 21a8 Level-0 table #4995: 2249704 bytes OK
+2025/01/10-17:24:03.146 21a8 Delete type=0 #4990
+2025/01/10-17:29:33.358 9e0c Compacting 1@1 + 1@2 files
+2025/01/10-17:29:33.374 9e0c Generated table #4996@1: 54 keys, 651825 bytes
+2025/01/10-17:29:33.374 9e0c Compacted 1@1 + 1@2 files => 651825 bytes
+2025/01/10-17:29:33.374 9e0c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/01/10-17:29:33.375 9e0c Delete type=2 #4993
+2025/01/10-17:29:33.375 9e0c Delete type=2 #4995
+2025/01/10-17:44:03.385 21a8 Level-0 table #4998: started
+2025/01/10-17:44:03.433 21a8 Level-0 table #4998: 2219594 bytes OK
+2025/01/10-17:44:03.436 21a8 Delete type=0 #4994
+2025/01/10-17:49:02.187 21a8 Compacting 1@1 + 1@2 files
+2025/01/10-17:49:02.198 21a8 Generated table #4999@1: 54 keys, 652310 bytes
+2025/01/10-17:49:02.198 21a8 Compacted 1@1 + 1@2 files => 652310 bytes
+2025/01/10-17:49:02.199 21a8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/01/10-17:49:02.200 21a8 Delete type=2 #4996
+2025/01/10-17:49:02.200 21a8 Delete type=2 #4998
+2025/01/10-17:59:03.607 21a8 Level-0 table #5001: started
+2025/01/10-17:59:03.642 21a8 Level-0 table #5001: 2222556 bytes OK
+2025/01/10-17:59:03.644 21a8 Delete type=0 #4997
+2025/01/10-18:19:03.847 21a8 Level-0 table #5003: started
+2025/01/10-18:19:03.869 21a8 Level-0 table #5003: 2225568 bytes OK
+2025/01/10-18:19:03.871 21a8 Delete type=0 #5000
+2025/01/10-18:28:02.694 21a8 Compacting 1@0 + 1@1 files
+2025/01/10-18:28:02.712 21a8 Generated table #5004@0: 3 keys, 556850 bytes
+2025/01/10-18:28:02.712 21a8 Compacted 1@0 + 1@1 files => 556850 bytes
+2025/01/10-18:28:02.713 21a8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/01/10-18:28:02.714 21a8 Delete type=2 #5001
+2025/01/10-18:28:02.714 21a8 Delete type=2 #5003
+2025/01/10-18:34:34.070 21a8 Level-0 table #5006: started
+2025/01/10-18:34:34.110 21a8 Level-0 table #5006: 2230580 bytes OK
+2025/01/10-18:34:34.114 21a8 Delete type=0 #5002

@@ -1,0 +1,28 @@
+{
+   "action": {
+      "default_icon": "images/icon32.png",
+      "default_popup": "lib/select/popup.html"
+   },
+   "background": {
+      "service_worker": "sw.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "256": "images/icon256.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqFeWkJ1ra/AM25pLL3r5SmTK1CdHjrVNdPM2PfNnytzGg1sawJq+HGZ+bbswGu+XCXXbkHaOuJrrdgTj/s3SIMz5An4gUupMCH+Ylu+QLcHlCnAzkr8f4s/83iCBBtjUobNuGZ5EsUaCHZ+DpG+i2CoMiSIxSmkF6dUCd8wuo5IrkaiHkTTlRlU0Y1jtc5EM43cn/LYqjXScC2mUiimXvPObeCfE6VGgyBITMU5VVIInPWWBgLm68jYYqkWjEWl6mjDODCpR8IHZSvVe8qWt9ev7qPR6y0jETdyc8t184U1M4ZD5frQbICxh30zxXItS+4h3C/3/s6g3t369XDfpaQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "104.0.0.0",
+   "name": "__MSG_name__",
+   "options_page": "lib/settings/settings.html",
+   "permissions": [ "tabs", "proxy", "storage", "scripting", "alarms", "webRequest", "declarativeNetRequest" ],
+   "short_name": "__MSG_short_name__",
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "3.0.1"
+}

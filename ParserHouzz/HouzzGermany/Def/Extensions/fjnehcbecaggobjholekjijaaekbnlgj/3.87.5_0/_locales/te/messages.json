@@ -1,0 +1,1754 @@
+{
+   "7_days_money_back_guarantee": {
+      "description": "",
+      "message": "7 రోజుల మనీ బ్యాక్ గ్యారెంటీ"
+   },
+   "N_servers_in_N_virtual_Locations": {
+      "description": "",
+      "message": "BBB వర్చువల్ స్థానాల్లో AAA+ సర్వర్లు"
+   },
+   "access_internet_via_premium_locations": {
+      "description": "",
+      "message": "అదనపు ప్రీమియం స్థానాల ద్వారా ఇంటర్నెట్‌ని యాక్సెస్ చేయండి."
+   },
+   "add_smart_setting_for_X": {
+      "description": "",
+      "message": "XXX కోసం స్మార్ట్ సెట్టింగ్‌ని జోడించండి"
+   },
+   "authentication_error_no_connection": {
+      "description": "",
+      "message": "ప్రమాణీకరణ లోపం: Browsec సర్వర్‌కి కనెక్ట్ చేయడం సాధ్యపడదు."
+   },
+   "back": {
+      "description": "",
+      "message": "వెనుకకు"
+   },
+   "because_your_proxy_settings_are_blocked": {
+      "description": "",
+      "message": " ప్రాక్సీ సెట్టింగ్‌లకు యాక్సెస్ మరొక పొడిగింపు ద్వారా బ్లాక్ చేయబడింది."
+   },
+   "browsec_activated": {
+      "description": "",
+      "message": "బ్రౌజ్‌ని సక్రియం చేయండి"
+   },
+   "browsec_can_work_in_private_mode": {
+      "description": "",
+      "message": "మీరు ప్రైవేట్ విండోస్‌లో బ్రౌజ్‌ని నియంత్రించలేరు. Browsec చిహ్నం సక్రియంగా ఉంటే మీరు రక్షించబడతారు.\n\nమీరు మీ సాధారణ Firefox విండోలో Browsecని ప్రారంభించవచ్చు లేదా నిలిపివేయవచ్చు. మీ అన్ని బ్రౌజ్ సెట్టింగ్‌లు సాధారణ మరియు ప్రైవేట్ మోడ్ రెండింటికీ పని చేస్తాయి"
+   },
+   "browsec_has_been_installed": {
+      "description": "",
+      "message": "Browsec ఇన్‌స్టాల్ చేయబడింది!"
+   },
+   "browsec_is_enabled": {
+      "description": "",
+      "message": "Browsec మళ్లీ ప్రారంభించబడింది"
+   },
+   "browsec_off": {
+      "description": "",
+      "message": "బ్రౌజ్ ఆఫ్"
+   },
+   "browsec_premium": {
+      "description": "",
+      "message": "బ్రౌజ్ ప్రీమియం"
+   },
+   "browser_action_inactive_title": {
+      "description": "",
+      "message": "బ్రౌజ్"
+   },
+   "cancel_editing": {
+      "description": "",
+      "message": "సవరణను రద్దు చేయండి"
+   },
+   "cancel_subscription_at_any_time": {
+      "description": "",
+      "message": "ఎప్పుడైనా సభ్యత్వాన్ని రద్దు చేయండి"
+   },
+   "cant_authenticate_please_contact_browsec_support": {
+      "description": "",
+      "message": "ప్రమాణీకరించడం సాధ్యం కాదు. దయచేసి Browsec మద్దతును సంప్రదించండి."
+   },
+   "cant_setup_secure_connection": {
+      "description": "",
+      "message": "బ్రౌజర్ మీ బ్రౌజర్‌లో సురక్షిత కనెక్షన్‌ని సెటప్ చేయలేదు."
+   },
+   "cant_start_because_your_proxy_settings_blocked": {
+      "description": "",
+      "message": "Browsec VPNని ప్రారంభించలేదు. మీ ప్రాక్సీ సెట్టింగ్‌లు మరొక పొడిగింపు ద్వారా బ్లాక్ చేయబడ్డాయి"
+   },
+   "change": {
+      "description": "",
+      "message": "మార్చండి"
+   },
+   "change_location": {
+      "description": "",
+      "message": "స్థానాన్ని మార్చండి"
+   },
+   "change_timezone_according_to_virtual_location": {
+      "description": "",
+      "message": "మీ వర్చువల్ లొకేషన్ ప్రకారం బ్రౌజర్ టైమ్‌జోన్‌ని మార్చండి"
+   },
+   "change_timezone_text_1": {
+      "description": "",
+      "message": "ఈ ఐచ్చికము మీ వర్చువల్ స్థానానికి సరిపోయేలా మీ బ్రౌజర్ యొక్క సమయ మండలిని మారుస్తుంది."
+   },
+   "change_timezone_text_2": {
+      "description": "",
+      "message": "కొన్ని వెబ్‌సైట్‌లు జావాస్క్రిప్ట్ ఫంక్షన్‌లను ఉపయోగించి బ్రౌజర్ టైమ్‌జోన్‌ను గుర్తిస్తాయి. మీ బ్రౌజర్ మరియు IP చిరునామా యొక్క సమయ మండలాలు భిన్నంగా ఉంటే, అది VPN సేవ లేదా ఇతర అనామక సాంకేతికతలను ఉపయోగించడాన్ని సూచిస్తుంది."
+   },
+   "change_timezone_text_3": {
+      "description": "",
+      "message": "ఈ ఎంపికను ఆన్ చేయడంతో, వెబ్‌సైట్‌లు టైమ్‌జోన్ తేడాను గుర్తించలేవు."
+   },
+   "change_virtual_location": {
+      "description": "",
+      "message": "వర్చువల్ స్థానాన్ని మార్చండి"
+   },
+   "check_browsec_api": {
+      "description": "",
+      "message": "Browsec APIని తనిఖీ చేయండి"
+   },
+   "check_browsec_premium_plans": {
+      "description": "",
+      "message": "Browsec ప్రీమియం ప్లాన్‌లను తనిఖీ చేయండి"
+   },
+   "check_conflicts_with_other_extensions": {
+      "description": "",
+      "message": "ఇతర పొడిగింపులతో వైరుధ్యాలను తనిఖీ చేయండి"
+   },
+   "check_http_internet_connection": {
+      "description": "",
+      "message": "HTTP ఇంటర్నెట్ కనెక్షన్‌ని తనిఖీ చేయండి"
+   },
+   "check_http_internet_connection_with_browsec": {
+      "description": "",
+      "message": "Browsecతో HTTP ఇంటర్నెట్ కనెక్షన్‌ని తనిఖీ చేయండి"
+   },
+   "check_https_internet_connection": {
+      "description": "",
+      "message": "HTTPS ఇంటర్నెట్ కనెక్షన్‌ని తనిఖీ చేయండి"
+   },
+   "check_https_internet_connection_with_browsec": {
+      "description": "",
+      "message": "Browsecతో HTTPS ఇంటర్నెట్ కనెక్షన్‌ని తనిఖీ చేయండి"
+   },
+   "check_proxy_settings": {
+      "description": "",
+      "message": "ప్రాక్సీ సెట్టింగ్‌లను తనిఖీ చేయండి"
+   },
+   "choose_your_virtual_location": {
+      "description": "",
+      "message": "మీ వర్చువల్ స్థానాన్ని ఎంచుకోండి మరియు అందుబాటులో లేని ఏదైనా కంటెంట్‌ని యాక్సెస్ చేయండి."
+   },
+   "click_accept_terms_and_conditions": {
+      "description": "",
+      "message": "అంగీకరించు"
+   },
+   "click_and_then_1": {
+      "description": "",
+      "message": "క్లిక్ చేయండి"
+   },
+   "click_and_then_2": {
+      "description": "",
+      "message": "ఆపై"
+   },
+   "click_here_privacy_policy": {
+      "description": "",
+      "message": "గోప్యతా విధానం"
+   },
+   "click_here_terms_conditions": {
+      "description": "",
+      "message": "సేవా నిబంధనలు"
+   },
+   "click_here_to_agree_and_start": {
+      "description": "",
+      "message": "Browsec VPN యాప్‌ని ఉపయోగించడానికి\u003Cbr/>మీరు \u003Cbr/>{DIVIDER} మరియు\u003Cbr/>{DIVIDER}ని ఆమోదించాలి"
+   },
+   "click_here_to_start_vpn": {
+      "description": "",
+      "message": "VPNని ప్రారంభించడానికి\u003Cbr/>ఇక్కడ క్లిక్ చేయండి"
+   },
+   "click_icon_on_toolbar_and_turn_on_protection": {
+      "description": "",
+      "message": "టూల్‌బార్‌లోని బ్రౌజ్‌సెక్ చిహ్నాన్ని క్లిక్ చేసి, ట్రాఫిక్ రక్షణను ఆన్ చేయండి మరియు మీరు పని చేయడం మంచిది!"
+   },
+   "close_page": {
+      "description": "",
+      "message": "పేజీని మూసివేయండి"
+   },
+   "completed": {
+      "description": "",
+      "message": "పూర్తయింది"
+   },
+   "congratulations_securing_your_browsing": {
+      "description": "",
+      "message": "మరో అడుగు, మరియు మీ బ్రౌజర్ పూర్తిగా సురక్షితం."
+   },
+   "contact_support": {
+      "description": "",
+      "message": "Browsec మద్దతును సంప్రదించండి"
+   },
+   "contact_us": {
+      "description": "",
+      "message": "మమ్మల్ని సంప్రదించండి"
+   },
+   "continue_using_browsec_to_open_websites": {
+      "description": "",
+      "message": "మీరు బ్రౌజ్‌ని ఉపయోగించడం కొనసాగించవచ్చు. ధన్యవాదాలు!"
+   },
+   "continue_using_premium": {
+      "description": "",
+      "message": "Browsec Premiumని ఉపయోగించడం కొనసాగించండి"
+   },
+   "copy_to_clipboard": {
+      "description": "",
+      "message": "క్లిప్‌బోర్డ్‌కు కాపీ చేయండి"
+   },
+   "country_ac": {
+      "description": "",
+      "message": "అసెన్షన్ ద్వీపం"
+   },
+   "country_ad": {
+      "description": "",
+      "message": "అండోరా"
+   },
+   "country_ae": {
+      "description": "",
+      "message": "యునైటెడ్ అరబ్ ఎమిరేట్స్"
+   },
+   "country_af": {
+      "description": "",
+      "message": "ఆఫ్ఘనిస్తాన్"
+   },
+   "country_ag": {
+      "description": "",
+      "message": "ఆంటిగ్వా & బార్బుడా"
+   },
+   "country_ai": {
+      "description": "",
+      "message": "అంగుయిల్లా"
+   },
+   "country_al": {
+      "description": "",
+      "message": "అల్బేనియా"
+   },
+   "country_am": {
+      "description": "",
+      "message": "ఆర్మేనియా"
+   },
+   "country_an": {
+      "description": "",
+      "message": "నెదర్లాండ్స్ ఆంటిల్లెస్"
+   },
+   "country_ao": {
+      "description": "",
+      "message": "అంగోలా"
+   },
+   "country_aq": {
+      "description": "",
+      "message": "అంటార్కిటికా"
+   },
+   "country_ar": {
+      "description": "",
+      "message": "అర్జెంటీనా"
+   },
+   "country_as": {
+      "description": "",
+      "message": "అమెరికన్ సమోవా"
+   },
+   "country_at": {
+      "description": "",
+      "message": "ఆస్ట్రియా"
+   },
+   "country_au": {
+      "description": "",
+      "message": "ఆస్ట్రేలియా"
+   },
+   "country_aw": {
+      "description": "",
+      "message": "అరుబా"
+   },
+   "country_ax": {
+      "description": "",
+      "message": "ఆలాండ్ దీవులు"
+   },
+   "country_az": {
+      "description": "",
+      "message": "అజర్‌బైజాన్"
+   },
+   "country_ba": {
+      "description": "",
+      "message": "బోస్నియా"
+   },
+   "country_bb": {
+      "description": "",
+      "message": "బార్బడోస్"
+   },
+   "country_bd": {
+      "description": "",
+      "message": "బంగ్లాదేశ్"
+   },
+   "country_be": {
+      "description": "",
+      "message": "బెల్జియం"
+   },
+   "country_bf": {
+      "description": "",
+      "message": "బుర్కినా ఫాసో"
+   },
+   "country_bg": {
+      "description": "",
+      "message": "బల్గేరియా"
+   },
+   "country_bh": {
+      "description": "",
+      "message": "బహ్రెయిన్"
+   },
+   "country_bi": {
+      "description": "",
+      "message": "బురుండి"
+   },
+   "country_bj": {
+      "description": "",
+      "message": "బెనిన్"
+   },
+   "country_bl": {
+      "description": "",
+      "message": "సెయింట్ బార్తెలెమీ"
+   },
+   "country_bm": {
+      "description": "",
+      "message": "బెర్ముడా"
+   },
+   "country_bn": {
+      "description": "",
+      "message": "బ్రూనై"
+   },
+   "country_bo": {
+      "description": "",
+      "message": "బొలీవియా"
+   },
+   "country_bq": {
+      "description": "",
+      "message": "కరేబియన్ నెదర్లాండ్స్"
+   },
+   "country_br": {
+      "description": "",
+      "message": "బ్రెజిల్"
+   },
+   "country_bs": {
+      "description": "",
+      "message": "బహమాస్"
+   },
+   "country_bt": {
+      "description": "",
+      "message": "భూటాన్"
+   },
+   "country_bv": {
+      "description": "",
+      "message": "బౌవెట్ ద్వీపం"
+   },
+   "country_bw": {
+      "description": "",
+      "message": "బోట్స్వానా"
+   },
+   "country_by": {
+      "description": "",
+      "message": "బెలారస్"
+   },
+   "country_bz": {
+      "description": "",
+      "message": "బెలిజ్"
+   },
+   "country_ca": {
+      "description": "",
+      "message": "కెనడా"
+   },
+   "country_cc": {
+      "description": "",
+      "message": "కోకోస్ (కీలింగ్) దీవులు"
+   },
+   "country_cd": {
+      "description": "",
+      "message": "కాంగో (DRC)"
+   },
+   "country_cf": {
+      "description": "",
+      "message": "సెంట్రల్ ఆఫ్రికన్ రిపబ్లిక్"
+   },
+   "country_cg": {
+      "description": "",
+      "message": "కాంగో (రిపబ్లిక్)"
+   },
+   "country_ch": {
+      "description": "",
+      "message": "స్విట్జర్లాండ్"
+   },
+   "country_ci": {
+      "description": "",
+      "message": "కోట్ డి ఐవరీ"
+   },
+   "country_ck": {
+      "description": "",
+      "message": "కుక్ దీవులు"
+   },
+   "country_cl": {
+      "description": "",
+      "message": "చిలీ"
+   },
+   "country_cm": {
+      "description": "",
+      "message": "కామెరూన్"
+   },
+   "country_cn": {
+      "description": "",
+      "message": "చైనా"
+   },
+   "country_co": {
+      "description": "",
+      "message": "కొలంబియా"
+   },
+   "country_cp": {
+      "description": "",
+      "message": "క్లిప్పర్టన్ ద్వీపం"
+   },
+   "country_cr": {
+      "description": "",
+      "message": "కోస్టా రికా"
+   },
+   "country_cu": {
+      "description": "",
+      "message": "క్యూబా"
+   },
+   "country_cv": {
+      "description": "",
+      "message": "కేప్ వర్దె"
+   },
+   "country_cw": {
+      "description": "",
+      "message": "కురాకో"
+   },
+   "country_cx": {
+      "description": "",
+      "message": "క్రిస్మస్ ద్వీపం"
+   },
+   "country_cy": {
+      "description": "",
+      "message": "సైప్రస్"
+   },
+   "country_cz": {
+      "description": "",
+      "message": "చెక్ రిపబ్లిక్"
+   },
+   "country_de": {
+      "description": "",
+      "message": "జర్మనీ"
+   },
+   "country_dg": {
+      "description": "",
+      "message": "డియెగో గార్సియా"
+   },
+   "country_dj": {
+      "description": "",
+      "message": "జిబౌటీ"
+   },
+   "country_dk": {
+      "description": "",
+      "message": "డెన్మార్క్"
+   },
+   "country_dm": {
+      "description": "",
+      "message": "డొమినికా"
+   },
+   "country_do": {
+      "description": "",
+      "message": "డొమినికన్ రిపబ్లిక్"
+   },
+   "country_dz": {
+      "description": "",
+      "message": "అల్జీరియా"
+   },
+   "country_ea": {
+      "description": "",
+      "message": "సియుటా & మెలిల్లా"
+   },
+   "country_ec": {
+      "description": "",
+      "message": "ఈక్వెడార్"
+   },
+   "country_ee": {
+      "description": "",
+      "message": "ఎస్టోనియా"
+   },
+   "country_eg": {
+      "description": "",
+      "message": "ఈజిప్ట్"
+   },
+   "country_eh": {
+      "description": "",
+      "message": "పశ్చిమ సహారా"
+   },
+   "country_er": {
+      "description": "",
+      "message": "ఎరిట్రియా"
+   },
+   "country_es": {
+      "description": "",
+      "message": "స్పెయిన్"
+   },
+   "country_et": {
+      "description": "",
+      "message": "ఇథియోపియా"
+   },
+   "country_eu": {
+      "description": "",
+      "message": "ఐరోపా సంఘము"
+   },
+   "country_fi": {
+      "description": "",
+      "message": "ఫిన్లాండ్"
+   },
+   "country_fj": {
+      "description": "",
+      "message": "ఫిజీ"
+   },
+   "country_fk": {
+      "description": "",
+      "message": "ఫాక్లాండ్ దీవులు"
+   },
+   "country_fm": {
+      "description": "",
+      "message": "మైక్రోనేషియా"
+   },
+   "country_fo": {
+      "description": "",
+      "message": "ఫారో దీవులు"
+   },
+   "country_fr": {
+      "description": "",
+      "message": "ఫ్రాన్స్"
+   },
+   "country_ga": {
+      "description": "",
+      "message": "గాబోన్"
+   },
+   "country_gb": {
+      "description": "",
+      "message": "యునైటెడ్ కింగ్‌డమ్"
+   },
+   "country_gd": {
+      "description": "",
+      "message": "గ్రెనడా"
+   },
+   "country_ge": {
+      "description": "",
+      "message": "జార్జియా"
+   },
+   "country_gf": {
+      "description": "",
+      "message": "ఫ్రెంచ్ గయానా"
+   },
+   "country_gg": {
+      "description": "",
+      "message": "గ్వెర్న్సీ"
+   },
+   "country_gh": {
+      "description": "",
+      "message": "ఘనా"
+   },
+   "country_gi": {
+      "description": "",
+      "message": "జిబ్రాల్టర్"
+   },
+   "country_gl": {
+      "description": "",
+      "message": "గ్రీన్లాండ్"
+   },
+   "country_gm": {
+      "description": "",
+      "message": "గాంబియా"
+   },
+   "country_gn": {
+      "description": "",
+      "message": "గినియా"
+   },
+   "country_gp": {
+      "description": "",
+      "message": "గ్వాడెలోప్"
+   },
+   "country_gq": {
+      "description": "",
+      "message": "ఈక్వటోరియల్ గినియా"
+   },
+   "country_gr": {
+      "description": "",
+      "message": "గ్రీస్"
+   },
+   "country_gs": {
+      "description": "",
+      "message": "దక్షిణ జార్జియా & దక్షిణ శాండ్‌విచ్ దీవులు"
+   },
+   "country_gt": {
+      "description": "",
+      "message": "గ్వాటెమాల"
+   },
+   "country_gu": {
+      "description": "",
+      "message": "గ్వామ్"
+   },
+   "country_gw": {
+      "description": "",
+      "message": "గినియా-బిస్సావు"
+   },
+   "country_gy": {
+      "description": "",
+      "message": "గయానా"
+   },
+   "country_hk": {
+      "description": "",
+      "message": "హాంగ్ కొంగ"
+   },
+   "country_hm": {
+      "description": "",
+      "message": "హర్డ్ & మెక్‌డొనాల్డ్ దీవులు"
+   },
+   "country_hn": {
+      "description": "",
+      "message": "హోండురాస్"
+   },
+   "country_hr": {
+      "description": "",
+      "message": "క్రొయేషియా"
+   },
+   "country_ht": {
+      "description": "",
+      "message": "హైతీ"
+   },
+   "country_hu": {
+      "description": "",
+      "message": "హంగేరి"
+   },
+   "country_ic": {
+      "description": "",
+      "message": "కానరీ ద్వీపాలు"
+   },
+   "country_id": {
+      "description": "",
+      "message": "ఇండోనేషియా"
+   },
+   "country_ie": {
+      "description": "",
+      "message": "ఐర్లాండ్"
+   },
+   "country_il": {
+      "description": "",
+      "message": "ఇజ్రాయెల్"
+   },
+   "country_im": {
+      "description": "",
+      "message": "ఐల్ ఆఫ్ మ్యాన్"
+   },
+   "country_in": {
+      "description": "",
+      "message": "భారతదేశం"
+   },
+   "country_io": {
+      "description": "",
+      "message": "బ్రిటిష్ హిందూ మహాసముద్ర ప్రాంతం"
+   },
+   "country_iq": {
+      "description": "",
+      "message": "ఇరాక్"
+   },
+   "country_ir": {
+      "description": "",
+      "message": "ఇరాన్"
+   },
+   "country_is": {
+      "description": "",
+      "message": "ఐస్లాండ్"
+   },
+   "country_it": {
+      "description": "",
+      "message": "ఇటలీ"
+   },
+   "country_je": {
+      "description": "",
+      "message": "జెర్సీ"
+   },
+   "country_jm": {
+      "description": "",
+      "message": "జమైకా"
+   },
+   "country_jo": {
+      "description": "",
+      "message": "జోర్డాన్"
+   },
+   "country_jp": {
+      "description": "",
+      "message": "జపాన్"
+   },
+   "country_ke": {
+      "description": "",
+      "message": "కెన్యా"
+   },
+   "country_kg": {
+      "description": "",
+      "message": "కిర్గిజ్స్తాన్"
+   },
+   "country_kh": {
+      "description": "",
+      "message": "కంబోడియా"
+   },
+   "country_ki": {
+      "description": "",
+      "message": "కిరిబాటి"
+   },
+   "country_km": {
+      "description": "",
+      "message": "కొమొరోస్"
+   },
+   "country_kn": {
+      "description": "",
+      "message": "సెయింట్ కిట్స్ & నెవిస్"
+   },
+   "country_kp": {
+      "description": "",
+      "message": "ఉత్తర కొరియ"
+   },
+   "country_kr": {
+      "description": "",
+      "message": "దక్షిణ కొరియా"
+   },
+   "country_kw": {
+      "description": "",
+      "message": "కువైట్"
+   },
+   "country_ky": {
+      "description": "",
+      "message": "కేమాన్ దీవులు"
+   },
+   "country_kz": {
+      "description": "",
+      "message": "కజకిస్తాన్"
+   },
+   "country_la": {
+      "description": "",
+      "message": "లావోస్"
+   },
+   "country_lb": {
+      "description": "",
+      "message": "లెబనాన్"
+   },
+   "country_lc": {
+      "description": "",
+      "message": "సెయింట్ లూసియా"
+   },
+   "country_li": {
+      "description": "",
+      "message": "లిచెన్‌స్టెయిన్"
+   },
+   "country_lk": {
+      "description": "",
+      "message": "శ్రీలంక"
+   },
+   "country_lr": {
+      "description": "",
+      "message": "లైబీరియా"
+   },
+   "country_ls": {
+      "description": "",
+      "message": "లెసోతో"
+   },
+   "country_lt": {
+      "description": "",
+      "message": "లిథువేనియా"
+   },
+   "country_lu": {
+      "description": "",
+      "message": "లక్సెంబర్గ్"
+   },
+   "country_lv": {
+      "description": "",
+      "message": "లాట్వియా"
+   },
+   "country_ly": {
+      "description": "",
+      "message": "లిబియా"
+   },
+   "country_ma": {
+      "description": "",
+      "message": "మొరాకో"
+   },
+   "country_mc": {
+      "description": "",
+      "message": "మొనాకో"
+   },
+   "country_md": {
+      "description": "",
+      "message": "మోల్డోవా"
+   },
+   "country_me": {
+      "description": "",
+      "message": "మోంటెనెగ్రో"
+   },
+   "country_mf": {
+      "description": "",
+      "message": "సెయింట్ మార్టిన్"
+   },
+   "country_mg": {
+      "description": "",
+      "message": "మడగాస్కర్"
+   },
+   "country_mh": {
+      "description": "",
+      "message": "మార్షల్ దీవులు"
+   },
+   "country_mk": {
+      "description": "",
+      "message": "మాసిడోనియా"
+   },
+   "country_ml": {
+      "description": "",
+      "message": "మాలి"
+   },
+   "country_mm": {
+      "description": "",
+      "message": "మయన్మార్"
+   },
+   "country_mn": {
+      "description": "",
+      "message": "మంగోలియా"
+   },
+   "country_mo": {
+      "description": "",
+      "message": "మకావు"
+   },
+   "country_mp": {
+      "description": "",
+      "message": "ఉత్తర మరియానా దీవులు"
+   },
+   "country_mq": {
+      "description": "",
+      "message": "మార్టినిక్"
+   },
+   "country_mr": {
+      "description": "",
+      "message": "మౌరిటానియా"
+   },
+   "country_ms": {
+      "description": "",
+      "message": "మోంట్సెరాట్"
+   },
+   "country_mt": {
+      "description": "",
+      "message": "మాల్టా"
+   },
+   "country_mu": {
+      "description": "",
+      "message": "మారిషస్"
+   },
+   "country_mv": {
+      "description": "",
+      "message": "మాల్దీవులు"
+   },
+   "country_mw": {
+      "description": "",
+      "message": "మలావి"
+   },
+   "country_mx": {
+      "description": "",
+      "message": "మెక్సికో"
+   },
+   "country_my": {
+      "description": "",
+      "message": "మలేషియా"
+   },
+   "country_mz": {
+      "description": "",
+      "message": "మొజాంబిక్"
+   },
+   "country_na": {
+      "description": "",
+      "message": "నమీబియా"
+   },
+   "country_nc": {
+      "description": "",
+      "message": "న్యూ కాలెడోనియా"
+   },
+   "country_ne": {
+      "description": "",
+      "message": "నైజర్"
+   },
+   "country_nf": {
+      "description": "",
+      "message": "నార్ఫోక్ ద్వీపం"
+   },
+   "country_ng": {
+      "description": "",
+      "message": "నైజీరియా"
+   },
+   "country_ni": {
+      "description": "",
+      "message": "నికరాగ్వా"
+   },
+   "country_nl": {
+      "description": "",
+      "message": "నెదర్లాండ్స్"
+   },
+   "country_no": {
+      "description": "",
+      "message": "నార్వే"
+   },
+   "country_np": {
+      "description": "",
+      "message": "నేపాల్"
+   },
+   "country_nr": {
+      "description": "",
+      "message": "నౌరు"
+   },
+   "country_nu": {
+      "description": "",
+      "message": "నియు"
+   },
+   "country_nz": {
+      "description": "",
+      "message": "న్యూజిలాండ్"
+   },
+   "country_om": {
+      "description": "",
+      "message": "ఒమన్"
+   },
+   "country_pa": {
+      "description": "",
+      "message": "పనామా"
+   },
+   "country_pe": {
+      "description": "",
+      "message": "పెరూ"
+   },
+   "country_pf": {
+      "description": "",
+      "message": "ఫ్రెంచ్ పాలినేషియా"
+   },
+   "country_pg": {
+      "description": "",
+      "message": "పాపువా న్యూ గినియా"
+   },
+   "country_ph": {
+      "description": "",
+      "message": "ఫిలిప్పీన్స్"
+   },
+   "country_pk": {
+      "description": "",
+      "message": "పాకిస్తాన్"
+   },
+   "country_pl": {
+      "description": "",
+      "message": "పోలాండ్"
+   },
+   "country_pm": {
+      "description": "",
+      "message": "సెయింట్ పియర్ & మిక్వెలాన్"
+   },
+   "country_pn": {
+      "description": "",
+      "message": "పిట్‌కైర్న్ దీవులు"
+   },
+   "country_pr": {
+      "description": "",
+      "message": "ప్యూర్టో రికో"
+   },
+   "country_ps": {
+      "description": "",
+      "message": "పాలస్తీనా"
+   },
+   "country_pt": {
+      "description": "",
+      "message": "పోర్చుగల్"
+   },
+   "country_pw": {
+      "description": "",
+      "message": "పలావ్"
+   },
+   "country_py": {
+      "description": "",
+      "message": "పరాగ్వే"
+   },
+   "country_qa": {
+      "description": "",
+      "message": "ఖతార్"
+   },
+   "country_qo": {
+      "description": "",
+      "message": "బయట ఉన్న ఓషియానియా"
+   },
+   "country_re": {
+      "description": "",
+      "message": "రీయూనియన్"
+   },
+   "country_ro": {
+      "description": "",
+      "message": "రొమేనియా"
+   },
+   "country_rs": {
+      "description": "",
+      "message": "సెర్బియా"
+   },
+   "country_ru": {
+      "description": "",
+      "message": "రష్యా"
+   },
+   "country_rw": {
+      "description": "",
+      "message": "రువాండా"
+   },
+   "country_sa": {
+      "description": "",
+      "message": "సౌదీ అరేబియా"
+   },
+   "country_sb": {
+      "description": "",
+      "message": "సోలమన్ దీవులు"
+   },
+   "country_sc": {
+      "description": "",
+      "message": "సీషెల్స్"
+   },
+   "country_sd": {
+      "description": "",
+      "message": "సూడాన్"
+   },
+   "country_se": {
+      "description": "",
+      "message": "స్వీడన్"
+   },
+   "country_sg": {
+      "description": "",
+      "message": "సింగపూర్"
+   },
+   "country_sh": {
+      "description": "",
+      "message": "సెయింట్ హెలెనా"
+   },
+   "country_si": {
+      "description": "",
+      "message": "స్లోవేనియా"
+   },
+   "country_sj": {
+      "description": "",
+      "message": "స్వాల్బార్డ్ & జాన్ మాయెన్"
+   },
+   "country_sk": {
+      "description": "",
+      "message": "స్లోవేకియా"
+   },
+   "country_sl": {
+      "description": "",
+      "message": "సియర్రా లియోన్"
+   },
+   "country_sm": {
+      "description": "",
+      "message": "శాన్ మారినో"
+   },
+   "country_sn": {
+      "description": "",
+      "message": "సెనెగల్"
+   },
+   "country_so": {
+      "description": "",
+      "message": "సోమాలియా"
+   },
+   "country_sr": {
+      "description": "",
+      "message": "సురినామ్"
+   },
+   "country_ss": {
+      "description": "",
+      "message": "దక్షిణ సూడాన్"
+   },
+   "country_st": {
+      "description": "",
+      "message": "సావో టోమ్ & ప్రిన్సిపే"
+   },
+   "country_sv": {
+      "description": "",
+      "message": "ఎల్ సల్వడార్"
+   },
+   "country_sx": {
+      "description": "",
+      "message": "సింట్ మార్టెన్"
+   },
+   "country_sy": {
+      "description": "",
+      "message": "సిరియా"
+   },
+   "country_sz": {
+      "description": "",
+      "message": "స్వాజిలాండ్"
+   },
+   "country_ta": {
+      "description": "",
+      "message": "ట్రిస్టన్ డా కున్హా"
+   },
+   "country_tc": {
+      "description": "",
+      "message": "టర్క్స్ & కైకోస్ దీవులు"
+   },
+   "country_td": {
+      "description": "",
+      "message": "చాడ్"
+   },
+   "country_tf": {
+      "description": "",
+      "message": "ఫ్రెంచ్ దక్షిణ భూభాగాలు"
+   },
+   "country_tg": {
+      "description": "",
+      "message": "వెళ్ళడానికి"
+   },
+   "country_th": {
+      "description": "",
+      "message": "థాయిలాండ్"
+   },
+   "country_tj": {
+      "description": "",
+      "message": "తజికిస్తాన్"
+   },
+   "country_tk": {
+      "description": "",
+      "message": "టోకెలావ్"
+   },
+   "country_tl": {
+      "description": "",
+      "message": "తూర్పు తైమూర్"
+   },
+   "country_tm": {
+      "description": "",
+      "message": "తుర్క్మెనిస్తాన్"
+   },
+   "country_tn": {
+      "description": "",
+      "message": "ట్యునీషియా"
+   },
+   "country_to": {
+      "description": "",
+      "message": "టాంగా"
+   },
+   "country_tr": {
+      "description": "",
+      "message": "టర్కీ"
+   },
+   "country_tt": {
+      "description": "",
+      "message": "ట్రినిడాడ్ & టొబాగో"
+   },
+   "country_tv": {
+      "description": "",
+      "message": "తువాలు"
+   },
+   "country_tw": {
+      "description": "",
+      "message": "తైవాన్"
+   },
+   "country_tz": {
+      "description": "",
+      "message": "టాంజానియా"
+   },
+   "country_ua": {
+      "description": "",
+      "message": "ఉక్రెయిన్"
+   },
+   "country_ug": {
+      "description": "",
+      "message": "ఉగాండా"
+   },
+   "country_uk": {
+      "description": "",
+      "message": "యునైటెడ్ కింగ్‌డమ్"
+   },
+   "country_um": {
+      "description": "",
+      "message": "U.S. వెలుపలి దీవులు"
+   },
+   "country_us": {
+      "description": "",
+      "message": "సంయుక్త రాష్ట్రాలు"
+   },
+   "country_usw": {
+      "description": "",
+      "message": "యునైటెడ్ స్టేట్స్ వెస్ట్"
+   },
+   "country_uy": {
+      "description": "",
+      "message": "ఉరుగ్వే"
+   },
+   "country_uz": {
+      "description": "",
+      "message": "ఉజ్బెకిస్తాన్"
+   },
+   "country_va": {
+      "description": "",
+      "message": "వాటికన్ నగరం"
+   },
+   "country_vc": {
+      "description": "",
+      "message": "సెయింట్ విన్సెంట్ & గ్రెనడైన్స్"
+   },
+   "country_ve": {
+      "description": "",
+      "message": "వెనిజులా"
+   },
+   "country_vg": {
+      "description": "",
+      "message": "బ్రిటిష్ వర్జిన్ దీవులు"
+   },
+   "country_vi": {
+      "description": "",
+      "message": "U.S. వర్జిన్ దీవులు"
+   },
+   "country_vn": {
+      "description": "",
+      "message": "వియత్నాం"
+   },
+   "country_vu": {
+      "description": "",
+      "message": "వనాటు"
+   },
+   "country_wf": {
+      "description": "",
+      "message": "వాలిస్ & ఫుటునా"
+   },
+   "country_ws": {
+      "description": "",
+      "message": "సమోవా"
+   },
+   "country_xk": {
+      "description": "",
+      "message": "కొసావో"
+   },
+   "country_ye": {
+      "description": "",
+      "message": "యెమెన్"
+   },
+   "country_yt": {
+      "description": "",
+      "message": "మయోట్టే"
+   },
+   "country_za": {
+      "description": "",
+      "message": "దక్షిణ ఆఫ్రికా"
+   },
+   "country_zm": {
+      "description": "",
+      "message": "జాంబియా"
+   },
+   "country_zw": {
+      "description": "",
+      "message": "జింబాబ్వే"
+   },
+   "dedicated_traffic_lanes": {
+      "description": "",
+      "message": "ప్రీమియం వినియోగదారులు ప్రత్యేక ట్రాఫిక్ లేన్‌లను ఆనందిస్తారు."
+   },
+   "delete_smart_setting_for_X": {
+      "description": "",
+      "message": "XXX కోసం స్మార్ట్ సెట్టింగ్‌ను తొలగించండి"
+   },
+   "dependent_website": {
+      "description": "",
+      "message": "కనెక్ట్ చేయబడింది"
+   },
+   "disable": {
+      "description": "",
+      "message": "డిసేబుల్"
+   },
+   "disable_selected_extensions": {
+      "description": "",
+      "message": "ఎంచుకున్న పొడిగింపులను నిలిపివేయండి"
+   },
+   "dont_have_an_account": {
+      "description": "",
+      "message": "ఖాతా లేదా?"
+   },
+   "dont_send_telemetry": {
+      "description": "",
+      "message": "టెలిమెట్రీని పంపవద్దు"
+   },
+   "dont_show_promo_offers": {
+      "description": "",
+      "message": "ప్రోమో ఆఫర్‌లను చూపవద్దు"
+   },
+   "edit_smart_settings": {
+      "description": "",
+      "message": "స్మార్ట్ సెట్టింగ్‌లను సవరించండి"
+   },
+   "email": {
+      "description": "",
+      "message": "ఇమెయిల్"
+   },
+   "enable_browsec_for_all_sites_excluding_selected_sites": {
+      "description": "",
+      "message": "ఎంచుకున్న వెబ్‌సైట్‌లు మినహా అన్ని వెబ్‌సైట్‌ల కోసం Browsecని ప్రారంభించండి"
+   },
+   "enable_browsec_for_all_sites_excluding_selected_sites_description_1": {
+      "description": "",
+      "message": "బ్రౌజ్‌ని ప్రారంభించండి"
+   },
+   "enable_browsec_for_all_sites_excluding_selected_sites_description_2": {
+      "description": "",
+      "message": "స్మార్ట్ సెట్టింగ్‌లు → స్మార్ట్ సెట్టింగ్‌లను సవరించు క్లిక్ చేయండి"
+   },
+   "enable_browsec_for_all_sites_excluding_selected_sites_description_3": {
+      "description": "",
+      "message": "కావలసిన డొమైన్‌ని టైప్ చేసి, ఆఫ్‌ని ఎంచుకుని, IMGని క్లిక్ చేయండి"
+   },
+   "enable_browsec_only_for_selected_sites": {
+      "description": "",
+      "message": "ఎంచుకున్న వెబ్‌సైట్‌ల కోసం మాత్రమే బ్రౌజ్‌ని ప్రారంభించండి"
+   },
+   "enable_browsec_only_for_selected_sites_description_1": {
+      "description": "",
+      "message": "బ్రౌజ్‌ని నిలిపివేయండి"
+   },
+   "enable_browsec_only_for_selected_sites_description_2": {
+      "description": "",
+      "message": "స్మార్ట్ సెట్టింగ్‌లు → స్మార్ట్ సెట్టింగ్‌లను సవరించు క్లిక్ చేయండి"
+   },
+   "enable_browsec_only_for_selected_sites_description_3": {
+      "description": "",
+      "message": "కావలసిన డొమైన్‌ని టైప్ చేసి, ఈ డొమైన్ కోసం దేశాన్ని ఎంచుకుని, IMGని క్లిక్ చేయండి"
+   },
+   "esn": {
+      "description": "",
+      "message": "Browsec VPN"
+   },
+   "extension_description": {
+      "description": "",
+      "message": "Как обойти блокировку Ютуба в России в 2024? Пользуйтесь Browsec ВПН для Ютуба и смотрите любые видео как раньше!"
+   },
+   "extension_name": {
+      "description": "",
+      "message": "VPN для Youtube"
+   },
+   "extension_short_name": {
+      "description": "",
+      "message": "vpn youtube"
+   },
+   "failed": {
+      "description": "",
+      "message": "విఫలమైంది"
+   },
+   "fix_it": {
+      "description": "",
+      "message": "సరి చేయి"
+   },
+   "fix_proxy_settings": {
+      "description": "",
+      "message": "ప్రాక్సీ సెట్టింగ్‌లను పరిష్కరించండి"
+   },
+   "for_only": {
+      "description": "",
+      "message": "కోసం మాత్రమే"
+   },
+   "forgot_your_password": {
+      "description": "",
+      "message": "మీ పాస్వర్డ్ మర్చిపోయారా?"
+   },
+   "free_servers": {
+      "description": "",
+      "message": "ఉచిత సర్వర్లు"
+   },
+   "from_only_X_per_month": {
+      "description": "",
+      "message": "నెలకు XXX నుండి మాత్రమే!"
+   },
+   "get_N_days_free_premium_trial": {
+      "description": "",
+      "message": "XXX రోజుల ఉచిత ప్రీమియం ట్రయల్‌ని పొందండి"
+   },
+   "get_free_premium": {
+      "description": "",
+      "message": "ఉచిత ప్రీమియం పొందండి!"
+   },
+   "get_monthly_premium": {
+      "description": "",
+      "message": "నెలవారీ ప్రీమియం పొందండి"
+   },
+   "get_more_with_browsec_premium": {
+      "description": "",
+      "message": "Browsec Premiumతో మరిన్ని పొందండి"
+   },
+   "get_premium_now": {
+      "description": "",
+      "message": "ఇప్పుడే ప్రీమియం పొందండి!"
+   },
+   "get_turbo_speed": {
+      "description": "",
+      "message": "టర్బో స్పీడ్ పొందండి"
+   },
+   "go_ahead_and_renew_it": {
+      "description": "",
+      "message": "కొనసాగండి మరియు దానిని పునరుద్ధరించండి."
+   },
+   "go_back": {
+      "description": "",
+      "message": "వెనక్కి వెళ్ళు"
+   },
+   "health_check": {
+      "description": "",
+      "message": "ఆరోగ్య పరీక్ష"
+   },
+   "help": {
+      "description": "",
+      "message": "సహాయం"
+   },
+   "hide_health_check_logs": {
+      "description": "",
+      "message": "ఆరోగ్య తనిఖీ లాగ్‌లను దాచండి"
+   },
+   "home": {
+      "description": "",
+      "message": "హోమ్"
+   },
+   "how_to_use_smart_settings": {
+      "description": "",
+      "message": "స్మార్ట్ సెట్టింగ్‌లను ఎలా ఉపయోగించాలి"
+   },
+   "i_want_to": {
+      "description": "",
+      "message": "నేను కోరుకుంటున్నాను:"
+   },
+   "incorrect_email_or_password": {
+      "description": "",
+      "message": "తప్పు ఇమెయిల్ లేదా పాస్‌వర్డ్"
+   },
+   "locations_help_1": {
+      "description": "",
+      "message": "ఈ దేశాలలో దేనిలోనైనా ఉన్న మా సర్వర్‌లను ఉపయోగించి Browsec సురక్షిత కనెక్షన్‌ని ఏర్పాటు చేయగలదు. మీరు ఎంచుకున్న స్థానానికి చెందిన IP చిరునామాను పొందుతారు మరియు మీరు నిజంగా అక్కడ ఉన్నట్లుగా వెబ్‌ను బ్రౌజ్ చేస్తారు."
+   },
+   "locations_help_2": {
+      "description": "",
+      "message": "నిర్దిష్ట దేశానికి మాత్రమే అందుబాటులో ఉన్న కంటెంట్‌ను యాక్సెస్ చేయడానికి, సంబంధిత వర్చువల్ స్థానాన్ని ఎంచుకోండి."
+   },
+   "locations_help_3": {
+      "description": "",
+      "message": "మీ స్థానాన్ని దాచడానికి (గోప్యతా కారణాల వల్ల లేదా మీ దేశంలో నిషేధించబడిన కంటెంట్‌ను చేరుకోవడానికి), ఏదైనా స్థానాన్ని ఎంచుకోండి. వర్చువల్ లొకేషన్ మీ నిజమైన దానికి దగ్గరగా ఉంటే, మీ కనెక్షన్ వేగం ఎక్కువ అని గమనించండి."
+   },
+   "off": {
+      "description": "",
+      "message": "ఆఫ్"
+   },
+   "ok_i_got_it": {
+      "description": "",
+      "message": "సరే నాకు అర్థమయింది"
+   },
+   "on": {
+      "description": "",
+      "message": "పై"
+   },
+   "one_smart_setting_description_1": {
+      "description": "",
+      "message": "అపరిమిత స్మార్ట్ సెట్టింగ్‌లను పొందడానికి మరియు బ్రౌజ్ డెవలప్‌మెంట్‌కు మద్దతు ఇవ్వడానికి దయచేసి Premiumకి అప్‌గ్రేడ్ చేయండి."
+   },
+   "one_smart_setting_description_2": {
+      "description": "",
+      "message": "మీరు కూడా పొందుతారు:"
+   },
+   "one_smart_setting_description_list_1": {
+      "description": "",
+      "message": "40+ ప్రీమియం వర్చువల్ స్థానాలకు యాక్సెస్"
+   },
+   "one_smart_setting_description_list_2": {
+      "description": "",
+      "message": "టర్బో వేగం"
+   },
+   "only_X_per_month": {
+      "description": "",
+      "message": "నెలకు XXX మాత్రమే"
+   },
+   "other_websites": {
+      "description": "",
+      "message": "ఇతర వెబ్‌సైట్‌లు"
+   },
+   "password": {
+      "description": "",
+      "message": "పాస్వర్డ్"
+   },
+   "pin_the_browsec_extension": {
+      "description": "",
+      "message": "Browsec పొడిగింపును పిన్ చేయండి"
+   },
+   "please_enter_domain": {
+      "description": "",
+      "message": "దయచేసి డొమైన్‌ను నమోదు చేయండి"
+   },
+   "please_enter_valid_domain": {
+      "description": "",
+      "message": "దయచేసి చెల్లుబాటు అయ్యే డొమైన్‌ను నమోదు చేయండి"
+   },
+   "please_try_again_or_contact_support": {
+      "description": "",
+      "message": "దయచేసి మళ్లీ ప్రయత్నించండి లేదా Browsec మద్దతును సంప్రదించండి."
+   },
+   "premium_locations": {
+      "description": "",
+      "message": "ప్రీమియం స్థానాలు"
+   },
+   "premium_server_authentication_error": {
+      "description": "",
+      "message": "ప్రీమియం సర్వర్ గుర్తింపు లోపం. VPN నిలిపివేయబడింది. దయచేసి Browsec విస్తరణలో VPNకి తిరిగి కలుపుకోండి."
+   },
+   "premium_servers": {
+      "description": "",
+      "message": "ప్రీమియం సర్వర్లు"
+   },
+   "privacy_protection_disabled": {
+      "description": "",
+      "message": "గోప్యతా రక్షణ నిలిపివేయబడింది"
+   },
+   "privacy_protection_partially_disabled": {
+      "description": "",
+      "message": "ప్రస్తుత వెబ్‌సైట్: గోప్యత నిలిపివేయబడింది"
+   },
+   "privacy_protection_partially_enabled": {
+      "description": "",
+      "message": "ప్రస్తుత వెబ్‌సైట్: గోప్యత పరిరక్షించబడింది"
+   },
+   "protect_me": {
+      "description": "",
+      "message": "నన్ను రక్షించుము"
+   },
+   "remove_cache_on_authorization_popups": {
+      "description": "",
+      "message": "ప్రామాణీకరణ పాప్‌అప్‌లపై కాష్‌ని తీసివేయండి (ప్రయోగాత్మకం)"
+   },
+   "remove_smart_setting": {
+      "description": "",
+      "message": "స్మార్ట్ సెట్టింగ్‌ని తీసివేయండి"
+   },
+   "running": {
+      "description": "",
+      "message": "నడుస్తోంది"
+   },
+   "running_dots": {
+      "description": "",
+      "message": "నడుస్తోంది..."
+   },
+   "select": {
+      "description": "",
+      "message": "ఎంచుకోండి"
+   },
+   "select_allow_in_popup_window": {
+      "description": "",
+      "message": "పాపప్ విండోలో “అనుమతించు” క్లిక్ చేయండి"
+   },
+   "setting_was_deleted": {
+      "description": "",
+      "message": "సెట్టింగ్ తొలగించబడింది"
+   },
+   "settings": {
+      "description": "",
+      "message": "సెట్టింగ్‌లు"
+   },
+   "show_health_check_logs": {
+      "description": "",
+      "message": "ఆరోగ్య తనిఖీ లాగ్‌లను చూపించు"
+   },
+   "sign_in": {
+      "description": "",
+      "message": "సైన్ ఇన్ చేయండి"
+   },
+   "sign_in_title": {
+      "description": "",
+      "message": "సైన్ ఇన్ చేయండి"
+   },
+   "sign_out": {
+      "description": "",
+      "message": "సైన్ అవుట్ చేయండి"
+   },
+   "sign_up": {
+      "description": "",
+      "message": "చేరడం"
+   },
+   "skipped": {
+      "description": "",
+      "message": "దాటవేయబడింది"
+   },
+   "smart_settings": {
+      "description": "",
+      "message": "స్మార్ట్ సెట్టింగ్‌లు"
+   },
+   "smart_settings_allow_you_to_control": {
+      "description": "",
+      "message": "స్మార్ట్ సెట్టింగ్‌లు Browsecపై మరింత నియంత్రణను కలిగి ఉండటానికి మిమ్మల్ని అనుమతిస్తాయి"
+   },
+   "smart_settings_features_1": {
+      "description": "",
+      "message": "ఎంచుకున్న వెబ్‌సైట్‌ల కోసం మాత్రమే Browsecని ప్రారంభించండి"
+   },
+   "smart_settings_features_2": {
+      "description": "",
+      "message": "అన్ని ఇతర వెబ్‌సైట్‌ల కోసం ప్రారంభించబడినప్పటికీ, ఎంచుకున్న వెబ్‌సైట్‌ల కోసం Browsecని ఉపయోగించవద్దు"
+   },
+   "smart_settings_features_3": {
+      "description": "",
+      "message": "వివిధ వెబ్‌సైట్‌ల కోసం విభిన్న వర్చువల్ స్థానాలను ఎంచుకోండి"
+   },
+   "something_went_wrong": {
+      "description": "",
+      "message": "ఎక్కడో తేడ జరిగింది..."
+   },
+   "start": {
+      "description": "",
+      "message": "ప్రారంభించండి"
+   },
+   "start_vpn": {
+      "description": "",
+      "message": "VPNని ప్రారంభించండి"
+   },
+   "terms_and_conditions_ff": {
+      "description": "",
+      "message": "విస్తరణ ఉపయోగించడానికి ఒప్పందాలు మరియు అనుమతులు"
+   },
+   "this_account_is_locked_please_contact_us": {
+      "description": "",
+      "message": "ఈ ఖాతా లాక్ చేయబడింది.\nదయచేసి మీ ఖాతాను పునరుద్ధరించడానికి మమ్మల్ని సంప్రదించండి"
+   },
+   "this_domain_already_in_list": {
+      "description": "",
+      "message": "ఈ డొమైన్ ఇప్పటికే జాబితాలో ఉంది"
+   },
+   "this_option_is_available_only_for_premium": {
+      "description": "",
+      "message": "ఈ ఎంపిక ప్రీమియం ఖాతాలకు మాత్రమే అందుబాటులో ఉంటుంది"
+   },
+   "top_performance_guaranteed": {
+      "description": "",
+      "message": "మా అత్యుత్తమ-తరగతి సర్వర్లు అత్యుత్తమ పనితీరుకు హామీ ఇస్తాయి."
+   },
+   "try_again": {
+      "description": "",
+      "message": "మళ్లీ ప్రయత్నించండి"
+   },
+   "turbo_speed": {
+      "description": "",
+      "message": "టర్బో వేగం"
+   },
+   "turbo_speed_in_free_premium": {
+      "description": "",
+      "message": "ఉచిత ప్రీమియంలో టర్బో స్పీడ్"
+   },
+   "undo": {
+      "description": "",
+      "message": "అన్డు"
+   },
+   "upgrade_connection_speed": {
+      "description": "",
+      "message": "కనెక్షన్ వేగాన్ని అప్‌గ్రేడ్ చేయండి"
+   },
+   "upgrade_to_premium": {
+      "description": "",
+      "message": "ప్రీమియంకు అప్‌గ్రేడ్ చేయండి"
+   },
+   "use": {
+      "description": "",
+      "message": "వా డు"
+   },
+   "use_browsec_for_webrtc_connections": {
+      "description": "",
+      "message": "WebRTC కనెక్షన్‌ల కోసం Browsecని ఉపయోగించండి"
+   },
+   "use_different_locations_for_different_sites": {
+      "description": "",
+      "message": "విభిన్న వెబ్‌సైట్‌ల కోసం వేర్వేరు స్థానాలను ఉపయోగించండి"
+   },
+   "use_different_locations_for_different_sites_description_1": {
+      "description": "",
+      "message": "బ్రౌజ్‌ని ప్రారంభించండి"
+   },
+   "use_different_locations_for_different_sites_description_2": {
+      "description": "",
+      "message": "స్మార్ట్ సెట్టింగ్‌లు → స్మార్ట్ సెట్టింగ్‌లను సవరించు క్లిక్ చేయండి"
+   },
+   "use_different_locations_for_different_sites_description_3": {
+      "description": "",
+      "message": "కావలసిన డొమైన్‌ని టైప్ చేసి, ఈ డొమైన్ కోసం దేశాన్ని ఎంచుకుని, IMGని క్లిక్ చేయండి"
+   },
+   "virtual_locations": {
+      "description": "",
+      "message": "వర్చువల్ స్థానాలు"
+   },
+   "warning": {
+      "description": "",
+      "message": "హెచ్చరిక"
+   },
+   "we_have_detected_other_extensions_which_block_access": {
+      "description": "",
+      "message": "ప్రాక్సీ సెట్టింగ్‌లకు యాక్సెస్‌ను నిరోధించే ఇతర పొడిగింపులను మేము గుర్తించాము. Browsecని ఉపయోగించడానికి ఈ పొడిగింపులను నిలిపివేయండి."
+   },
+   "we_have_detected_other_extensions_which_can_conflict": {
+      "description": "",
+      "message": "Browsecతో విభేదించే ఇతర పొడిగింపులను మేము గుర్తించాము. Browsec సరిగ్గా పని చేయకపోతే ఈ పొడిగింపులను నిలిపివేయడాన్ని పరిగణించండి."
+   },
+   "webrtc_settings_controlled_by_another_extension": {
+      "description": "",
+      "message": "WebRTC సెట్టింగ్‌లు మరొక పొడిగింపు ద్వారా నియంత్రించబడతాయి"
+   },
+   "welcome_back": {
+      "description": "",
+      "message": "పునఃస్వాగతం!"
+   },
+   "what_is_webrtc_text_1": {
+      "description": "",
+      "message": "WebRTC (వెబ్ రియల్ టైమ్ కమ్యూనికేషన్) అనేది బ్రౌజర్ నుండి ఆడియో మరియు వీడియో కాల్‌లను చేయడానికి అనుమతించే ప్రోటోకాల్."
+   },
+   "what_is_webrtc_text_2": {
+      "description": "",
+      "message": "అయినప్పటికీ, మీరు VPN (దీనినే WebRTC IP లీక్ అని పిలుస్తారు) ఉపయోగించినప్పటికీ మీ నిజమైన అంతర్గత మరియు పబ్లిక్ IPలను తెలుసుకోవడానికి WebRTC వెబ్‌సైట్‌లను అనుమతిస్తుంది."
+   },
+   "what_is_webrtc_text_3": {
+      "description": "",
+      "message": "Browsec ప్రారంభించబడినప్పుడు ఈ ఎంపిక WebRTC IP లీక్‌ను నిరోధిస్తుంది. సైడ్ ఎఫెక్ట్‌గా ఇది బ్రౌజర్ నుండి ఆడియో/వీడియో కాల్‌ల నాణ్యతను ప్రభావితం చేస్తుంది, కాబట్టి మీకు ఏది ముఖ్యమైనదో ఎంచుకోవడం మీ ఇష్టం."
+   },
+   "what_is_webrtc_title": {
+      "description": "",
+      "message": "WebRTC అంటే ఏమిటి?"
+   },
+   "with_smart_settings_you_can": {
+      "description": "",
+      "message": "స్మార్ట్ సెట్టింగ్‌లతో మీరు వీటిని చేయవచ్చు:"
+   },
+   "you_can_enable_these_extensions_later": {
+      "description": "",
+      "message": "మీరు ఈ పొడిగింపులను తర్వాత బ్రౌజర్ సెట్టింగ్‌లలో ప్రారంభించవచ్చు."
+   },
+   "you_can_have_only_1_smart_setting": {
+      "description": "",
+      "message": "మీరు ఉచిత ప్లాన్‌లో 1 స్మార్ట్ సెట్టింగ్‌ను మాత్రమే కలిగి ఉండవచ్చు."
+   },
+   "you_just_installed_browsec": {
+      "description": "",
+      "message": "మీరు ఇప్పుడే బ్రౌజ్‌ని ఇన్‌స్టాల్ చేసారు!"
+   },
+   "you_may_now_open_the_extension": {
+      "description": "",
+      "message": "మీరు ఇప్పుడు VPNని ప్రారంభించడానికి పొడిగింపును తెరవవచ్చు."
+   },
+   "your_browsers_connections_are_not_encrypted": {
+      "description": "",
+      "message": "మీ బ్రౌజర్ కనెక్షన్‌లు ఎన్‌క్రిప్ట్ చేయబడలేదు. మీ IP మరియు స్థానం మూడవ పక్షానికి అందుబాటులో ఉన్నాయి."
+   },
+   "your_premium_is_about_to_expire": {
+      "description": "",
+      "message": "మీ Browsec ప్రీమియం గడువు ముగియబోతోంది"
+   },
+   "your_privacy_is_protected": {
+      "description": "",
+      "message": "మీ గోప్యత రక్షించబడింది"
+   },
+   "your_proxy_settings_are_blocked": {
+      "description": "",
+      "message": "మీ ప్రాక్సీ సెట్టింగ్‌లు మరొక పొడిగింపు ద్వారా బ్లాక్ చేయబడ్డాయి"
+   }
+}

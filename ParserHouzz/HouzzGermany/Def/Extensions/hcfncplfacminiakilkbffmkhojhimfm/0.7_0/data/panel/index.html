@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="login_form_container">
+      <div id="mainLogo">
+        <img src="/data/icons/MainLogo.png" width="128" height="128" alt="" />
+      </div>
+      <table id="mainTable">
+        <tr>
+          <td>
+            <img
+              src="/data/icons/ic_shield.png"
+              width="20"
+              height="20"
+              align="right"
+              alt=""
+            />
+          </td>
+          <td>Free VPN</td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="/data/icons/ic_shield.png"
+              width="20"
+              height="20"
+              align="right"
+              alt=""
+            />
+          </td>
+          <td>UnRegister</td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="/data/icons/ic_shield.png"
+              width="20"
+              height="20"
+              align="right"
+              alt=""
+            />
+          </td>
+          <td>Unlimited</td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="/data/icons/ic_shield.png"
+              width="20"
+              height="20"
+              align="right"
+              alt=""
+            />
+          </td>
+          <td>Unblock Websites</td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="/data/icons/ic_shield.png"
+              width="20"
+              height="20"
+              align="right"
+              alt=""
+            />
+          </td>
+          <td>Premium</td>
+        </tr>
+        <tr></tr>
+      </table>
+
+      <form id="login_form">
+        <div><input type="submit" id="login_btn" value="Connect" /></div>
+
+        <div id="login_error"></div>
+      </form>
+    </div>
+
+    <div id="main_container" class="hide">
+      <div id="toolbar">
+        <span></span>
+        <span id="installDate" class="SpanLine"></span>
+        <span id="finishDate" class="SpanLine"></span>
+      </div>
+      <table>
+        <colgroup>
+          <col width="50px" />
+          <col width="20px" />
+          <col width="150px" />
+          <col width="40px" style="padding-right: 10px" />
+          <col />
+        </colgroup>
+        <tbody id="main_ips_table">
+          <!--<tr><td colspan="4"></td></tr>-->
+        </tbody>
+      </table>
+
+      <div>
+        <input type="button" id="logout" value="Logout" />
+        <br />
+      </div>
+    </div>
+    <div style="text-align: right; padding: 5px"></div>
+    <div id="notify"></div>
+    <script src="utils.js"></script>
+  </body>
+</html>

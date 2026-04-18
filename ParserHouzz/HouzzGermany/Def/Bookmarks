@@ -1,0 +1,120 @@
+{
+   "checksum": "82e11b43a85a5ded3de39ea2050129d8",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13326385910822227",
+            "date_last_used": "13330366356603123",
+            "guid": "c0bd7c02-c556-404e-b32e-720d3f12cc6a",
+            "id": "6",
+            "name": "Imagine Dragons — I’m So Sorry",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://vk.com/audios438303597?block=my_playlists&section=all&z=audio_playlist438303597_18",
+            "visit_count": 0
+         }, {
+            "date_added": "13327277435833875",
+            "date_last_used": "0",
+            "guid": "bfefdda2-2c88-43a0-bf7a-95291f5241d4",
+            "id": "7",
+            "name": "Яндекс Маркет",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://market.yandex.ru/?from=dist_bookmarks&win=591&clid=2414929-261",
+            "visit_count": 0
+         }, {
+            "date_added": "13327277435836875",
+            "date_last_used": "0",
+            "guid": "10c034db-7c94-4b8d-8efe-4c23a4e35c4f",
+            "id": "8",
+            "name": "Яндекс",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.ya.ru/?win=591&clid=2414926-261&from=dist_bookmark",
+            "visit_count": 0
+         }, {
+            "date_added": "13328476239065413",
+            "date_last_used": "0",
+            "guid": "08959cd1-2bae-4e79-b253-712e715fd77e",
+            "id": "9",
+            "name": "Безопасность",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://myaccount.google.com/security?rapt=AEjHL4M2TOUMgkuQvVLdj6GYbdIce11OFJdx60jp3CxklqBFCcIwjX6EM_4IlAkYK0-qxZVH3Zeg2JKnv3EKg5Mz1VwBeAj8Tw",
+            "visit_count": 0
+         }, {
+            "date_added": "13365279681876068",
+            "date_last_used": "0",
+            "guid": "7e93c240-f848-44ba-9bc1-05c54f126626",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "как выйти из tmux — Яндекс: нашлось 8 тыс. результатов",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://yandex.ru/search/?text=%D0%BA%D0%B0%D0%BA+%D0%B2%D1%8B%D0%B9%D1%82%D0%B8+%D0%B8%D0%B7+tmux&lr=35&clid=2411726",
+            "visit_count": 0
+         }, {
+            "date_added": "13356390549042795",
+            "date_last_used": "0",
+            "guid": "f1124b9a-2459-49aa-80bd-1fc4af52b80e",
+            "id": "11",
+            "name": "Яндекс Маркет",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://market.yandex.ru/?from=dist_bookmarks&win=639&clid=2323980-912",
+            "visit_count": 0
+         }, {
+            "date_added": "13356390549046794",
+            "date_last_used": "0",
+            "guid": "35f19757-233a-4d16-b64a-11dc1bc6c02f",
+            "id": "12",
+            "name": "Яндекс",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.ya.ru/?win=639&clid=2323977-912&from=dist_bookmark",
+            "visit_count": 0
+         } ],
+         "date_added": "13376344343068238",
+         "date_last_used": "0",
+         "date_modified": "13365279681876068",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Панель избранного",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13376344343068241",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Другое избранное",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13376344343068244",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Избранное на мобильных устройствах",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCJeNZASRAQAAEgAqGFpKYzFUQWwvZXVLNlZpNk8xbk8zNVE9PUgDoAYHEq0BCAsSqAEKHEROeVYrYWEyVWYrZStDcldhR1ZuY3RNcFBBMD0SJGYxMTI0YjlhLTI0NTktNDlhYS04MGJkLTFmYzRhZjUyYjgwZRgAIAAoADCVm5KjkDI46KKSo5AyQOiikqOQMkocYWo3d2RnNGo3SFBiWkllNFhkR3VZVmNEclBRPVofIh3uYUJJM0lIdmt3NTR4Rlo4M2NkK3RzNGVxVHJBPWUAAAAAwj4CYAUSrAEICBKnAQocdWxDZzRJODRia0JtTElhVEF1eE1ydXVEN0F3PRIkMTBjMDM0ZGItN2M5NC00YjhkLThlZmUtNGMyM2E0ZTM1YzRmGAAgACgAMNyahoz9MDjwm4aM/TBA8JuGjP0wShxicGpDTHRWeGtHV2UzcGF4V3NkQkwrWEZLTU09Wh4iHHdCcHpORmlrU3hIZGRwVWdib3dmQWsrRGZDOD1lAAAAAMI+AmAFEq0BCAoSqAEKHFBTN2h2UXJlYmtGZC85WjNxdmxaVC84Tnl3RT0SJDdlOTNjMjQwLWY4NDgtNDRiYS05YmMxLTA1YzU0ZjEyNjYyNhgAIAAoADCOpqTAijI44qikwIoyQOKopMCKMkocbkNHbTg4MlhqSEpNNHdZSlRTNHVPc3ZTZURjPVofIh3dSEdGc1RCQStJanFTOFp1M1oxbXZxS211ckdBPWVRapU6wj4CYAUSrAEIBxKnAQocQnZBakN3QU5ORklHdHRTY1NFRXhYU1d6ei9ZPRIkYmZlZmRkYTItMmM4OC00M2EwLWJmN2EtOTUyOTFmNTI0MWQ0GAAgACgAMNuahoz9MDjRm4aM/TBA0ZuGjP0wShxEMFZBYkxQMmdPTXJMaGJZMHVWMjM0ZWVMaVU9Wh4iHElrOXF2RGUvbDZzYytzVUpFak1BeG96YmYvOD1lAAAAAMI+AmAFEo4BCAISiQEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJDk1YzVhMmNjLWYwYzktNWU2MC05ZDNiLTZmOGQwOGUwZWQ0OBgAIAAoADDJidTssTA4lNut0uwvQJTbrdLsL0ocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAADCPgJgABKsAQgGEqcBChwrRlZ0Vks4dU9tVCttY0FwRXYvSWFsbFJ0Nlk9EiRjMGJkN2MwMi1jNTU2LTQwNGUtYjMyZS03MjBkM2YxMmNjNmEYACAAKAAwj7C94OgxOKr7pM75MECq+6TO+TBKHHloRHJONkJ2dERGaGxVUFUyaDR1NGY4Q0loYz1aHiIcMUZCTnBOUjZDWWRWdVpRcGY2OTZ5LzlLTDR3PWWadLc1wj4CYAUSrQEIDBKoAQocMHlUUGlaOThJdEREYWlxeEpPSkErODhmWDBZPRIkMzVmMTk3NTctMjMzYS00ZDE2LWI2NGEtMTFkYzFiYzZjMDJmGAAgACgAMJabkqOQMjiTo5KjkDJAk6OSo5AyShw4S0t2dTZoVzRJWS9nRVJnUHF1Nnc3ZTV1alU9Wh8iHfduWTNIbXE4Q3VVWDhsMFljQU11SGd0QVhualE9ZQAAAADCPgJgBRKOAQgBEokBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiQ3NzYzZGZjOC00ZWIwLTVjOTQtYTA2OC04Y2NlOWMxYmMzZDEYACAAKAAwyYnU7LEwOPTardLsL0D02q3S7C9KHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAwj4CYAASrQEICRKoAQocSVlva00xWjJCdEQrT0tDMGozOVVMUFM4bWZJPRIkMDg5NTljZDEtMmJhZS00ZTc5LWIyNTMtNzEyZTcxNWZkNzdlGAAgACgAMI6wveDoMTioq4SzgTFAqKuEs4ExShxJWEExQXU3Q0ZPdFNYV0NWNURGUzhvLzl2anc9Wh8iHbsyVVZMZEQvZ1VpSExKcmxTcWxKZU8yemhYOWs9ZRAw/+TCPgJgBRKOAQgDEokBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiRhZjU2NjJhNy0yYTc0LTVjNTQtOWZjZS00MzZkMzY3MTBkZmEYACAAKAAwyYnU7LEwONLbrdLsL0DS263S7C9KHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAwj4CYAAwADgA",
+   "version": 1
+}

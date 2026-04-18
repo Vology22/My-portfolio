@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Free VPN proxy et ad obstructorem - Planet VPN",
+    "description": "The name of the application"
+  },
+  "appNameBeta": {
+    "message": "Planeta VPN (BETA) - Free VPN ministerium",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Access to website et obstructionum ads cum nostris libera VPN procurator extensio",
+    "description": "The description of the application"
+  }
+}

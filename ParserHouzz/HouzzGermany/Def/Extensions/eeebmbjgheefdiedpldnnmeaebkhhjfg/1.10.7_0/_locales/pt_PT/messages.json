@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Ter acesso a qualquer sítio web e bloquear anúncios com a nossa extensão VPN proxy gratuita"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Proxy VPN gratuito e bloqueador de anúncios - Planet VPN"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "Planeta VPN (BETA) - Serviço VPN gratuito"
+   }
+}

@@ -1,0 +1,20 @@
+2025/01/02-23:48:56.060 cc50 Creating DB C:\Users\gogov\AppData\Local\Microsoft\Edge\User Data\Default\IndexedDB\https_impactclient.net_0.indexeddb.leveldb since it was missing.
+2025/01/02-23:48:56.070 cc50 Reusing MANIFEST C:\Users\gogov\AppData\Local\Microsoft\Edge\User Data\Default\IndexedDB\https_impactclient.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/01/02-23:49:12.532 cc50 Level-0 table #5: started
+2025/01/02-23:49:12.537 cc50 Level-0 table #5: 675 bytes OK
+2025/01/02-23:49:12.539 cc50 Delete type=0 #3
+2025/01/02-23:49:12.540 e7f8 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/01/02-23:49:26.294 cc50 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/01/02-23:49:26.294 e7f8 Manual compaction at level-1 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/01/02-23:49:28.312 4d30 Level-0 table #7: started
+2025/01/02-23:49:28.314 4d30 Level-0 table #7: 594 bytes OK
+2025/01/02-23:49:28.316 4d30 Delete type=0 #4
+2025/01/02-23:49:28.317 4d30 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/01/02-23:49:28.317 4d30 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x00\x00\x05' @ 38 : 0
+2025/01/02-23:49:28.317 4d30 Compacting 1@1 + 1@2 files
+2025/01/02-23:49:28.319 4d30 Generated table #8@1: 6 keys, 253 bytes
+2025/01/02-23:49:28.319 4d30 Compacted 1@1 + 1@2 files => 253 bytes
+2025/01/02-23:49:28.321 4d30 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/01/02-23:49:28.321 4d30 Delete type=2 #5
+2025/01/02-23:49:28.321 4d30 Delete type=2 #7
+2025/01/02-23:49:28.322 4d30 Manual compaction at level-1 from '\x00\x01\x00\x00\x05' @ 38 : 0 .. (end); will stop at (end)

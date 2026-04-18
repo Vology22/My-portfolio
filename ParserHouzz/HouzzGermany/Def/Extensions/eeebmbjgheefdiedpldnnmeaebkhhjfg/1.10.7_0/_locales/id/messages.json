@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Dapatkan akses ke situs web apa pun dan blokir iklan dengan ekstensi proxy VPN gratis kami"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Proxy VPN dan pemblokir iklan gratis - Planet VPN"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "Planet VPN (BETA) - Layanan VPN gratis"
+   }
+}

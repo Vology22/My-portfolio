@@ -1,0 +1,30 @@
+{
+   "action": {
+      "default_icon": {
+         "20": "images/20.png",
+         "40": "images/40.png"
+      }
+   },
+   "background": {
+      "service_worker": "/js/background.js"
+   },
+   "container": [ "GOOGLE_DRIVE" ],
+   "default_locale": "en",
+   "description": "__MSG_AppDesc__",
+   "homepage_url": "https://js-manager.freebusinessapps.net",
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "48": "images/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArl8aNOgf7lLg1xyj8+nEj0HI0v5HQaL3sn5AtmPCJc5ODoBxVe/BElqt+ur7YcmEDHU662eH+pOaRvA3cLJ3UWZCP/7HoQPrMEvRZmUwq4fL0Y6zpjuic6mu0clpuP6Y6gGB6MAaSwvMY9pEFd2syyZ1RagrG4UX+ze/AvB/oVeXf+gx8xu/IGpW1oFXEJe30+rQhNxpPlzzaVjBf6Po6uupzlFawDfKgZvZQSzZrkAHLRYvw1WpW82pMazpRwQgt1INIHcZV+L90AanSdZ8lk30vDe8Rm9sKQO9z24JOkZMqPObMWwuMd1O0iK06mhqWzi7tk8xB3tvQLs77cTqSwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_AppName__",
+   "offline_enabled": true,
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "contentSettings", "activeTab" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "3.0.0"
+}

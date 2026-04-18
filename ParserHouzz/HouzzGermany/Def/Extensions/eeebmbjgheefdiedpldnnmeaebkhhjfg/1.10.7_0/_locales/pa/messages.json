@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "ਮੁਫਤ ਵੀ ਪੀ ਐਨ ਪ੍ਰੌਕਸੀ ਅਤੇ ਵਿਗਿਆਪਨ ਬਲੌਕਰ - ਪਲੈਨੇਟ ਵੀ ਪੀ ਐਨ",
+    "description": "The name of the application"
+  },
+  "appNameBeta": {
+    "message": "ਪਲੈਨੇਟ ਵੀ ਪੀ ਐਨ (ਬੀਟਾ) - ਮੁਫਤ ਵੀ ਪੀ ਐਨ ਸੇਵਾ",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "ਕਿਸੇ ਵੀ ਵੈਬਸਾਈਟ ਤੱਕ ਪਹੁੰਚ ਪ੍ਰਾਪਤ ਕਰੋ ਅਤੇ ਸਾਡੇ ਮੁਫਤ ਵੀ ਪੀ ਐਨ ਪ੍ਰੌਕਸੀ ਐਕਸਟੈਂਸ਼ਨ ਨਾਲ ਵਿਗਿਆਪਨਾਂ ਨੂੰ ਬਲੌਕ ਕਰੋ ।",
+    "description": "The description of the application"
+  }
+}

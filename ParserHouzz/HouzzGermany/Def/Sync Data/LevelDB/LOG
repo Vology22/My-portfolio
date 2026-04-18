@@ -1,0 +1,12 @@
+2025/01/10-17:08:01.569 9e0c Reusing MANIFEST C:\Users\gogov\AppData\Local\Microsoft\Edge\User Data\Default\Sync Data\LevelDB/MANIFEST-000001
+2025/01/10-17:08:01.622 9e0c Recovering log #801
+2025/01/10-17:08:01.626 9e0c Reusing old log C:\Users\gogov\AppData\Local\Microsoft\Edge\User Data\Default\Sync Data\LevelDB/000801.log 
+2025/01/10-17:24:46.380 1238 Level-0 table #806: started
+2025/01/10-17:24:46.387 1238 Level-0 table #806: 109544 bytes OK
+2025/01/10-17:24:46.390 1238 Delete type=0 #801
+2025/01/10-17:44:16.737 21a8 Level-0 table #808: started
+2025/01/10-17:44:16.742 21a8 Level-0 table #808: 95899 bytes OK
+2025/01/10-17:44:16.744 21a8 Delete type=0 #805
+2025/01/10-18:25:58.043 21a8 Level-0 table #810: started
+2025/01/10-18:25:58.049 21a8 Level-0 table #810: 106487 bytes OK
+2025/01/10-18:25:58.050 21a8 Delete type=0 #807

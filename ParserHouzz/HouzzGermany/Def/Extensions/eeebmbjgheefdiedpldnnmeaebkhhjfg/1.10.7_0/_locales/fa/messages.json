@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "با افزونہ جدید وی پی ان ما به هر وب سایتی دسترسی داشته باشید و تبلیغات را مسدود کنید"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "وی پی ان پروکسی رایگان و مسدود کنندہ تبلیغات PLANET VPN"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "PLANET VPN Beta وی پی ان پراکسی رایگان"
+   }
+}

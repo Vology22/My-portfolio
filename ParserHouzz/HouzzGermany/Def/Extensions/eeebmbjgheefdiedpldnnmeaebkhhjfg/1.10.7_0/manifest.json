@@ -1,0 +1,35 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/icon-19.png",
+         "38": "icons/icon-38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Planet VPN"
+   },
+   "content_scripts": [ {
+      "js": [ "scripts/content-script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "externally_connectable": {
+      "matches": [ "*://localhost/*", "*://freevpnplanet.com/*", "*://*.freevpnplanet.com/*" ]
+   },
+   "icons": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png",
+      "96": "icons/icon-96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5kwLw8ZBvMfLHnl1UA+o9I+sABpjevOX4wbWAG+mgZD3LesXgUvarY2ZSWHM45o97yxx/I3ClqB7x0WUnkaWsYYHSFesrDQwjO4qYv51z1gziDCAI9+p+CfotxfynDjzNOjlCk3FGHM3EvGRXCuUbtfGft0+TlaoKdANig0GULZ3qV9FSKQODGPY4KierbwC29Ohv4/UU6e37SOpggd4bFTjzWd0r0lXATesQmdutLVLVyrE9Q18chLf2Ki/dnM+KsOVaPoqAifUZCaQzfSV21v0FrSR3CJXScopxjhDdpvTCdZI8Xx3GRO8GhSwTOQ//i/7qUCFVKEUVvdEG0xBnQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "\u003Call_urls>", "cookies", "proxy", "storage", "unlimitedStorage", "history", "webRequest", "webRequestBlocking", "tabs", "privacy" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.10.7",
+   "web_accessible_resources": [ "blocked.html", "scripts/blocked.js", "icons/icon-48.png" ]
+}

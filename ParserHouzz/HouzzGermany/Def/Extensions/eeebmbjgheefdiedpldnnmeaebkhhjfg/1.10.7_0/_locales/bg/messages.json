@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Получете достъп до всеки уебсайт и блокирайте рекламите с нашето безплатно VPN прокси разширение"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Безплатно VPN прокси и блокиране на реклами - Planet VPN"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "Planet VPN (BETA) - безплатна VPN услуга"
+   }
+}

@@ -1,0 +1,296 @@
+{
+   "CA": {
+      "message": "Canada"
+   },
+   "DE": {
+      "message": "Germany"
+   },
+   "ES": {
+      "message": "Spain"
+   },
+   "FR": {
+      "message": "France"
+   },
+   "NL": {
+      "message": "Netherlands"
+   },
+   "NOVPN": {
+      "message": "Turn off VPN"
+   },
+   "RO": {
+      "message": "Romania"
+   },
+   "RU": {
+      "message": "Russia"
+   },
+   "SE": {
+      "message": "Sweden"
+   },
+   "SG": {
+      "message": "Singapore"
+   },
+   "UK": {
+      "message": "United Kingdom (England)"
+   },
+   "US": {
+      "message": "United States (USA)"
+   },
+   "apply_button": {
+      "message": "Apply settings"
+   },
+   "ask": {
+      "message": "Thank you for choosing \u003Cb>VPN Professional\u003C/b>!\u003Cbr>\u003Cbr>Are you satisfied with our application?\u003Cbr>\u003Cbr>"
+   },
+   "attention": {
+      "message": "\u003Cb>ATTENTION!!!\u003C/b>\u003Cbr>The extension does not work!\u003Cbr>\u003Cbr>Make sure your settings are selected as shown in the figure below."
+   },
+   "attention2": {
+      "message": "If you want to customize your own lists, visit the settings page:"
+   },
+   "changes": {
+      "message": "Changes have been saved successfully."
+   },
+   "description": {
+      "message": "Unblock any website and stay secure with VPN Professional. Easy use with one-click activation. VPN Professional - the best VPN!"
+   },
+   "dns_page_h1_edge": {
+      "message": "How to Set Up Secure DNS in Microsoft Edge"
+   },
+   "dns_page_p1_edge": {
+      "message": "Click the \u003Cbutton class=\"button\" id=\"button_edge\">Open DNS Settings Button\u003C/button> or enter \u003Ccode>edge://settings/privacy\u003C/code> into your browser's address bar."
+   },
+   "dns_page_p2_edge": {
+      "message": "You can also open the above page manually: \u003Cb>Menu → Settings → Privacy, search and services\u003C/b>."
+   },
+   "dns_page_p3_edge": {
+      "message": "Scroll down to the \u003Cb>Security\u003C/b> section."
+   },
+   "dns_page_p4_edge": {
+      "message": "Enable the \u003Cb>Use secure DNS to specify how to lookup the network address for websites\u003C/b>."
+   },
+   "dns_page_p5_edge": {
+      "message": "Switch to \u003Cb>Choose a service provider\u003C/b>."
+   },
+   "dns_page_p6_edge": {
+      "message": "Click an empty box and select \u003Cb>Google (Public DNS)\u003C/b> or \u003Cb>Cloudflare (1.1.1.1)\u003C/b>."
+   },
+   "dns_page_p7_edge": {
+      "message": "\u003Cb>Be sure\u003C/b> to restart your browser."
+   },
+   "error_page_access_select": {
+      "message": "On all sites"
+   },
+   "error_page_access_text": {
+      "message": "Allow this extension to read and change all your data on websites you visit:"
+   },
+   "error_page_access_title": {
+      "message": "Site access"
+   },
+   "error_page_attention": {
+      "message": "The extension failed to load properly. VPN may not work correctly.\u003Cbr>Make sure your settings are selected as shown in the figure below:"
+   },
+   "error_page_description_text": {
+      "message": "Unblock any website and stay secure with VPN Professional. Easy use with one-click activation. VPN Professional - the best VPN!"
+   },
+   "error_page_description_title": {
+      "message": "Description"
+   },
+   "error_page_name": {
+      "message": "VPN Professional - Free Unlimited VPN Proxy"
+   },
+   "error_page_settings": {
+      "message": "Navigate to settings"
+   },
+   "error_settings": {
+      "message": "Go to settings"
+   },
+   "install": {
+      "message": "You have installed \u003Cb>VPN Professional\u003C/b>!"
+   },
+   "mail": {
+      "message": "Write your comments and suggestions to the e-mail support@free-vpn.pro."
+   },
+   "name": {
+      "message": "VPN Professional - Free Unlimited VPN Proxy"
+   },
+   "option1": {
+      "message": "ALL through VPN. Not recommended!"
+   },
+   "option2": {
+      "message": "Proxy ONLY domains from the list:"
+   },
+   "option3": {
+      "message": "Proxy all EXCEPT domains from the list:"
+   },
+   "options": {
+      "message": "Choose one of the options:"
+   },
+   "questions": {
+      "message": "\u003Ch3>Have any questions?\u003C/h3>Contact support on support@free-vpn.pro.\u003Cbr>\u003Cbr>"
+   },
+   "rule1": {
+      "message": "1. We recommend to add domains with subdomains, for example: \u003Cb>*.domain.com\u003C/b> instead of www.domain.com or domain.com.\u003Cbr>"
+   },
+   "rule2": {
+      "message": "2. If you need to add a domain not in Latin, you should first \u003Ca href='https://www.punycoder.com/' target='_blank'>convert the domain\u003C/a> to Latin and only then add it to the list.\u003Cbr>"
+   },
+   "rule3": {
+      "message": "3. After adding all the domains, click the \u003Cb>«Apply Settings»\u003C/b> button."
+   },
+   "rules": {
+      "message": "Rules for adding domains:"
+   },
+   "select_country": {
+      "message": "Select a country or turn off VPN:"
+   },
+   "settings": {
+      "message": "Settings"
+   },
+   "share_page_mail": {
+      "message": "Write your comments and suggestions to the e-mail \u003Ca href='mailto:support@free-vpn.pro?subject=VPN%20Professional%20Edge%20Share%20Page'>support@free-vpn.pro\u003C/a>."
+   },
+   "share_page_rate": {
+      "message": "Please give us a good rating on the Microsoft Edge Add-ons:\u003Cbr>\u003Cbr>"
+   },
+   "share_page_satisfied": {
+      "message": "Thank you for choosing \u003Cb>VPN Professional\u003C/b>!\u003Cbr>\u003Cbr>Are you satisfied with our application?\u003Cbr>\u003Cbr>"
+   },
+   "share_text": {
+      "message": "Help us to expand the project!\u003Cbr> Please, share the link:\u003Cbr>\u003Cbr>"
+   },
+   "short_name": {
+      "message": "Free VPN"
+   },
+   "social": {
+      "message": "Thank you for choosing \u003Cb>VPN Professional\u003C/b>!\u003Cbr>\u003Cbr> If you like our extension, help us to expand it!\u003Cbr> Share to your friends:\u003Cbr>\u003Cbr>"
+   },
+   "start_edge": {
+      "message": "How to start?"
+   },
+   "start_ext_country": {
+      "message": "Choose a country and set up VPN lists"
+   },
+   "start_ext_country_text": {
+      "message": "Click the extension's icon and \u003Cb>choose the country.\u003C/b>\u003Cbr> The extension will automatically connect to the selected server.\u003Cbr>You can \u003Cb>Disable VPN\u003C/b> in the same menu.\u003Cbr>\u003Cbr>Go to settings and \u003Cb>create lists of sites\u003C/b> that will work through the VPN.\u003Cbr>\u003Cbr>\u003Cb>Make sure you do not have another extension installed with proxy or VPN functionality.\u003Cbr>\u003Cu>If there are other installed extensions VPN Professional may not work correctly.\u003C/u>\u003C/b>"
+   },
+   "start_ext_country_text_edge": {
+      "message": "Click the extension's icon in the upper right corner.\u003Cbr>Select the country through which you want to connect.\u003Cbr> The extension will automatically connect to the selected server.\u003Cbr>Enjoy VPN Professional - Free Unlimited VPN.\u003Cbr>\u003Cbr>\u003Cb>Make sure you do not have another extension installed with proxy or VPN functionality.\u003Cbr>If there are other installed extensions VPN Professional may not work correctly.\u003C/b>"
+   },
+   "start_ext_menu": {
+      "message": "New Extension Menu"
+   },
+   "start_ext_menu_text": {
+      "message": "To access the extension, click on the puzzle piece icon in the upper right corner of your browser.\u003Cbr>After clicking on the icon, a menu opens with a list of all installed extensions."
+   },
+   "start_ext_pin": {
+      "message": "Pin the extension"
+   },
+   "start_ext_pin_text": {
+      "message": "Opening the extension menu shows a list of extensions.\u003Cbr>Each extension in the list has a eye icon on the right side of the menu. Clicking this icon pins the extension.\u003Cbr>Once the extension is pinned, its action button remains in the toolbar."
+   },
+   "start_page_disable_vpn_subtitle": {
+      "message": "Instantly turn off the VPN if you don't need it right now."
+   },
+   "start_page_disable_vpn_text": {
+      "message": "1. Click on the VPN Professional extension icon on the toolbar to access the extension menu.\u003Cbr>2. Select \u003Cb>Turn off VPN\u003C/b> option from the dropdown menu.\u003Cbr>\u003Cbr>After turning off the VPN, all your traffic will go directly.\u003Cbr>When the VPN is turned off, the icon will be gray.\u003Cbr>\u003Cbr>To reconnect, simply select a country from the list, and the extension will \u003Cb>automatically\u003C/b> connect to the server you've chosen."
+   },
+   "start_page_disable_vpn_title": {
+      "message": "Turn off VPN"
+   },
+   "start_page_edge_extension": {
+      "message": "Extensions"
+   },
+   "start_page_edge_manage": {
+      "message": "Manage extensions"
+   },
+   "start_page_edge_microsoft": {
+      "message": "Open Microsoft Edge Add-ons"
+   },
+   "start_page_edge_name": {
+      "message": "VPN Professional - Free Unlimited..."
+   },
+   "start_page_error_dns_text": {
+      "message": "Your provider is blocking DNS. Changing DNS settings is easy.\u003Cbr>\u003Cbr>\u003Ca id=\"dns\" target=\"_blank\">Change DNS\u003C/a> or contact support at: \u003Ca href='mailto:support@free-vpn.pro?subject=VPN%20Professional%20Edge%20DNS%20Error'>support@free-vpn.pro"
+   },
+   "start_page_error_dns_title": {
+      "message": "\u003Cb>❌Critical error!!! VPN connection failure!❌\u003C/b>"
+   },
+   "start_page_error_document_title": {
+      "message": "Error!"
+   },
+   "start_page_installed": {
+      "message": "VPN Professional is now successfully installed!"
+   },
+   "start_page_installing": {
+      "message": "Installing VPN Professional - Free Unlimited VPN"
+   },
+   "start_page_manual": {
+      "message": "While the extension is being installed, please read the user manual"
+   },
+   "start_page_not_close_text": {
+      "message": "Do not close this page until the installation is complete"
+   },
+   "start_page_pin_subtitle": {
+      "message": "To quickly access the VPN, pin the extension to the toolbar."
+   },
+   "start_page_pin_text": {
+      "message": "1. Click on the puzzle piece icon in the upper right corner of your browser.\u003Cbr>2. Locate the \u003Cb>VPN Professional - Free Unlimited VPN\u003C/b> extension in the list of extensions and pin it.\u003Cbr>\u003Cbr>After pinning the extension, its action button will remain in the browser toolbar."
+   },
+   "start_page_pin_title": {
+      "message": "Pin the extension"
+   },
+   "start_page_select_country_subtitle": {
+      "message": "Choose a country from the dropdown list of the VPN extension."
+   },
+   "start_page_select_country_text": {
+      "message": "1. Click on the VPN Professional extension icon on the toolbar to access the extension menu.\u003Cbr>2. Select a VPN server from the available countries in the dropdown menu.\u003Cbr>\u003Cbr>After selecting the VPN country, it will \u003Cb>automatically\u003C/b> connect to the server you've chosen."
+   },
+   "start_page_select_country_title": {
+      "message": "Select VPN Server"
+   },
+   "start_page_settings_subtitle": {
+      "message": "Customize VPN settings to craft your own list of domains."
+   },
+   "start_page_settings_text": {
+      "message": "1. Click on the VPN Professional extension icon on the toolbar to access the extension menu.\u003Cbr> 2. Click the \u003Cb>Settings\u003C/b> button to access the options page.\u003Cbr> 3. Choose one of the three options:\u003Cbr> &nbsp;&nbsp;● ALL through VPN (default)\u003Cbr> &nbsp;&nbsp;● Proxy ONLY domains from the list\u003Cbr> &nbsp;&nbsp;● Proxy all EXCEPT domains from the list\u003Cbr>\u003Cbr> For your convenience, you can configure lists to proxy only the websites and domains you need."
+   },
+   "start_page_settings_title": {
+      "message": "Create your own list"
+   },
+   "start_page_support_subtitle": {
+      "message": "Support is always ready to assist you."
+   },
+   "start_page_support_text": {
+      "message": "1. Click on the VPN Professional extension icon on the toolbar to access the extension menu.\u003Cbr> 2. Click on the \u003Cb>email address\u003C/b> to send a request to customer support.\u003Cbr>\u003Cbr>You can also send an email directly to our mailbox from any of your email addresses (Gmail, Hotmail, Yandex, and others).\u003Cbr> We do not respond to questions asked in the reviews section of the Microsoft Edge Add-ons."
+   },
+   "start_page_support_title": {
+      "message": "Support"
+   },
+   "start_step": {
+      "message": "Step"
+   },
+   "start_text": {
+      "message": "Three simple steps left to complete the installation and access the full extension functionality"
+   },
+   "start_title": {
+      "message": "installation is almost complete"
+   },
+   "start_title_edge": {
+      "message": "installation completed!"
+   },
+   "support": {
+      "message": "Support: support@free-vpn.pro"
+   },
+   "want_list": {
+      "message": "Be sure to go to the advanced extension settings:"
+   },
+   "webstore": {
+      "message": "Give us a good rate on Edge Add-ons:\u003Cbr>\u003Cbr>"
+   },
+   "webstore_click": {
+      "message": "Click to rate the app"
+   },
+   "wrong": {
+      "message": "Wrong format! Please read instructions below."
+   }
+}

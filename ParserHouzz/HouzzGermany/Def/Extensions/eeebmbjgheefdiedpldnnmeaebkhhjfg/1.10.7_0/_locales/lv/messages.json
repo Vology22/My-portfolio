@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Piekļūstiet jebkurai vietnei un bloķējiet reklāmas, izmantojot mūsu bezmaksas VPN starpniekservera paplašinājumu"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Bezmaksas VPN starpniekserveris un reklāmu bloķētājs — Planet VPN"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "Planet VPN (BETA) — bezmaksas VPN pakalpojums"
+   }
+}

@@ -1,0 +1,50 @@
+{
+   "action": {
+      "default_icon": "icons/icon-grey.png",
+      "default_popup": "popup/index.html",
+      "default_title": "Urban VPN"
+   },
+   "background": {
+      "service_worker": "service-worker/index.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "ad-blocker/content.js" ],
+      "match_about_blank": true,
+      "matches": [ "https://*/*", "http://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "content/content.js" ],
+      "matches": [ "https://*/*", "http://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "homepage_url": "https://www.urban-vpn.com/",
+   "host_permissions": [ "\u003Call_urls>", "https://*.bugsnag.com/*" ],
+   "icons": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon.png",
+      "48": "icons/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArmX4dnzG1T72cAFmspIoYeQyuy26VSjbnust2K657VRxoO2xPyw4EuRDVv674bdmTKFDtConIuPtzGAo43B8gDg+zTqUjpW0K8ZacBq9PvCYsv4of3/KM2Eo2TjtmO+1Llt6LK7iqVAA7HqJZzFZkdX6VknyMovA0BhcIqQcrAN4zIRitBxIvww1mzmBJpg2c9wM1EPNIRMo3pZZ5AZ9zMAPgR2ntndKOxKeboVM/lwtTQjRAHrfkfM0WSa4IMJceOsTljiG5QZ5zjuB9txESFWHxAAMJ0QUf544Yg31EnXbftcQtagXKh8vqT6V/0O5oEe9x97DFE9wVRVA3qhNwwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "110.0",
+   "name": "__MSG_appName__",
+   "permissions": [ "webRequestAuthProvider", "offscreen", "alarms", "management", "proxy", "scripting", "storage", "tabs", "webNavigation", "webRequest" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "4.11.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "/content/anti-male-ware-notification/index.html", "/content/safe-price-check-notification/index.html", "/content/vpn-notification/index.html", "/content/terminated-connection-notification/index.html" ]
+   }, {
+      "matches": [ "https://*/*", "http://*/*" ],
+      "resources": [ "/content/location/location.js" ]
+   }, {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "/libs/extend-native-history-api.js", "/libs/requests.js" ]
+   }, {
+      "matches": [ "*://*/*" ],
+      "resources": [ "executers/fr-co.js", "executers/vi-ig-tr.js", "executers/vi-ln-tr.js", "executers/vi-oo-tr.js", "executers/vi-pn-tr.js", "executers/vi-rd-tr.js", "executers/vi-tr.js", "executers/vi-tt-tr.js" ]
+   } ]
+}

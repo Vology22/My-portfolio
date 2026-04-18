@@ -1,0 +1,51 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/128-grey.png",
+         "16": "icons/16-grey.png",
+         "32": "icons/32-grey.png",
+         "48": "icons/48-grey.png",
+         "64": "icons/64-grey.png"
+      },
+      "default_popup": "src/popup/popup.html",
+      "default_title": "__MSG_app_name_edge__"
+   },
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "js": [ "assets/main.tsx-loader-C16lKMhG.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_app_description__",
+   "homepage_url": "https://veepn.com/",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq981Vmx1cKCENRirrOgN4vkrtvt113txHQ/k4ffUdSxodoH8eH/IkD8gJI5rixXlGIOGJnGvyKKLxEnsZhKml1VuTRgh73Emqtt3xsyEZ+GL8vSz/CUiLgb7RRm82zjrsKAj4uqx1RWRxBBeJuaksARuXkUzHm26K+FfukMje6MZf81WSf77BoYAHM0vvGXZxT0pc1Qem4t34pTj3e2g7z03g6cIZzMkgv+khSPzrvHz/D+AFn9VFoc7vo+sc+kJqNmDF6UtlBpUCyaZ+jii3urErHRHcRlIkhZ9nJ6z5MsHI6qBALLGsC9SDTOW6EiDMIc4zNyLdJ1xOM/n1ahBNQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "109",
+   "name": "__MSG_app_name_edge__",
+   "permissions": [ "storage", "proxy", "tabs", "cookies", "notifications", "webRequest", "webRequestAuthProvider", "privacy" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "3.1.9",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "fonts/FigtreeVF.woff2" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "http://*/*", "https://*/*" ],
+      "resources": [ "assets/x-close-cross-BQABqpBb.svg", "assets/logo-veepn-DYzqQ5GZ.svg", "assets/alert-BEaDoEhr.svg", "assets/client-BHonKRc4.js", "assets/index-CQRs6ffc.js", "assets/main.tsx-DI-lAJOW.js" ],
+      "use_dynamic_url": false
+   } ]
+}

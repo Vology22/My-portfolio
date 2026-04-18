@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Merrni akses në çdo faqe interneti dhe bllokoni reklamat me shtesën tonë falas të përfaqësuesit VPN"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Proxy falas VPN dhe bllokues reklamash - Planet VPN"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "Planet VPN (BETA) - Shërbimi VPN falas"
+   }
+}

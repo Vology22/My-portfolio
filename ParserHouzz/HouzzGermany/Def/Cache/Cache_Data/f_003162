@@ -1,0 +1,546 @@
+<script type="text/javascript"> console.info('Country RU');</script><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AsPlay</title>
+    <script src="https://yastatic.net/pcode/adfox/adfox-cookie-matching.js?owner_id=226279"></script>
+    <script src="https://mob.i-trailer.ru/trailer/playerjs-konteiner11.js"></script>
+    <script src="https://mob.i-trailer.ru/trailer/apl-2.0.162.js"></script>
+    <!--<script src="js/playerjs-konteiner8.js"></script>
+    <script src="js/apl-2.0.162.js"></script>-->
+    <style>
+        body,
+        html {
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            /*overflow: hidden;*/
+        }
+
+        #con {
+            height: 100%;
+            width: 100%;
+            background: #000;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        .final-video {
+            height: 100%;
+            width: 100%;
+        }
+
+        .full {
+            height: 100%;
+            width: 100%;
+        }
+
+        #adsVideo {
+            /*position: absolute;*/
+            display: none;
+        }
+
+        .vpaid {
+            opacity: 1;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+
+        .vpaid pre {
+            color: wheat;
+            font-size: 12px;
+            text-align: left;
+        }
+
+        .vpaid-show {
+            position: absolute;
+            pointer-events: auto;
+            opacity: 1;
+            height: 100%;
+            width: 100%;
+        }
+
+        .vpaid-hidden {
+            opacity: 0;
+            display: none;
+            position: absolute;
+            pointer-events: none;
+        }
+
+        .absolute {
+            position: absolute;
+        }
+
+        .ads-volume {
+            height: 48px;
+            width: 48px;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            cursor: pointer;
+            /*z-index: 24000 !important;*/
+            /*background: red;*/
+        }
+
+        .ads-close {
+            height: 48px;
+            width: 48px;
+            /*z-index: 24000 !important;*/
+            /*background: red;*/
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            cursor: pointer;
+        }
+
+        .ads-container {
+            position: absolute;
+        }
+
+        .ads-banner {
+            width: 100%;
+            height: 100%;
+            /*background-color: red;*/
+            position: absolute !important;
+            border: 0 !important;
+            overflow: hidden;
+            z-index: 1111;
+        }
+
+        .ads-banner-show {
+            border: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute !important;
+            border: 0 !important;
+            overflow: hidden;
+            z-index: 1111;
+        }
+
+        .ads-banner-hide {
+            display: none;
+            pointer-events: none;
+            position: absolute !important;
+            border: 0 !important;
+            overflow: hidden;
+        }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-GKZ8G6S37S"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-GKZ8G6S37S');
+</script>-->
+    <!-- Google tag (gtag.js) -->
+</head>
+
+<body>
+    <script src="//mob.i-trailer.ru/trailer/jquery-3.3.1.min.js"></script>
+    <div id="con">
+        <video class="vpaid-hidden" id="accessEl" src="https://mob.i-trailer.ru/trailer/blank.mp4" controls></video>
+    </div>
+    <div id="ads-banner"></div>
+    <script type="text/javascript">
+        function eventObrab(name, id, value) {
+            switch (name) {
+                case 'onAdsLoadEvent': {
+                    if (value == "halo") {
+                        parent.postMessage("surok_vast_halo", "*");
+                        console.info('vast_halo VPAID');
+                    }
+                    break;
+                }
+                case 'onAdsEndEvent': {
+                    if (value == "endhalo") {
+                        parent.postMessage("surok_vast_nothalo", "*");
+                        console.info('vast_endhalo VPAID');
+                    }
+                    break;
+                }
+                case 'visibility': {
+                    console.log("Видимость VPAID - ", value);
+                    visible_vastroll_vid = parseInt(value);
+                    break;
+                }
+                case 'impression': {
+                    if (!is_adv) SendAllAdvVastroll(id_pl, country);
+                    is_adv = true;
+                    parent.postMessage("surok_start_reklam", "*");
+                    console.info('vast_Impression VPAID');
+                    console.info('vast_Sender VPAID Test ' + is_each);
+                    console.info('vast_visability VPAID Test ' + visible_vastroll_vid);
+                    SendAdvStatistic(idDomen, id, id_pl);
+                    if (!is_each) {
+                        if (!visible_vastroll) {
+                            SendBlockVastroll(id_pl, id, country, slej, mark, salt);
+                            SendVisibileVastroll(id_pl, visible_vastroll_vid, country);
+                        }
+                    } else {
+                        console.info('vast_Sender VPAID ' + is_each);
+                        SendVisibileVastroll(id_pl, visible_vastroll_vid, country);
+                    }
+                    SendVisibileVastrollComp(id, visible_vastroll_vid);
+                    visible_vastroll++;
+                    break;
+                }
+                case 'complete': {
+                    parent.postMessage("surok_complete_adv", "*");
+                    console.info('vast_complete VPAID');
+                    break;
+                }
+                case 'userClose': {
+                    parent.postMessage("surok_complete_adv", "*");
+                    console.info('vast_complete VPAID');
+                    break;
+                }
+                case 'content': {
+                    if (value == 'start') {
+                        if (!is_adv) parent.postMessage("surok_no_reklam", "*");
+                        if (is_adv) parent.postMessage("surok_play_reklam", "*");
+                        parent.postMessage("surok_check_reklamend", "*");
+                        console.info('play VPAID');
+                    } else if (value == 'finish') {
+                        parent.postMessage("surok_check_reklamend", "*");
+                        console.info('end VPAID');
+                    } else if (value == 'final_content') {
+                        parent.postMessage("surok_check_reklamend", "*");
+                        console.info('FINISH_ALL_VPAID');
+                        break;
+                    }
+                    break;
+                }
+            }
+        }
+
+        function getCookie(name) {
+            var matches = document.cookie.match(new RegExp(
+                "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+            ));
+            return matches ? decodeURIComponent(matches[1]) : undefined;
+        }
+        let timerConnection = setTimeout(function isSetConnection() {
+            parent.postMessage("connection_established_vid_vpaut", "*");
+            console.info("Connetion Vpaut Established");
+            timerConnection = setTimeout(isSetConnection, 3000);
+        }, 3000);
+        parent.postMessage("init_connection_player", "*");
+        $.ajaxSetup({
+            cache: false
+        });
+        var visible_vastroll = 0;
+        var visible_vastroll_vid = 0;
+        var is_adv = false;
+        var is_each = 1;
+        var slej = 0;
+        var id_pl = 14149;
+        var mark = 1736177867;
+        var salt = '146b5f8a00d0bf79f775162236458fa299b90552';
+        var track_domen = 'https://avr.tivizor.ru/vpaut/';
+        var country = 'RU';
+        var strana = 'RU';
+        var comp_id = 0;
+        var shifr = '96NkIZjlCqhlCCthCjRMWpJoNPFcppt87mGQECJ';
+        var ip = '77.66.180.189';
+        var region = 'KDA';
+        var idDomen = 4;
+        var pl_name = 'https://matrica-lordfilm.ru';
+        var reffurl = 'https://matrica-lordfilm.ru/film/chelovek-pauk-net-puti-domoj-2021/?ysclid=m5l186aepz990260923';
+        if (reffurl == false || reffurl == 'undefined') {
+            reffurl = pl_name;
+        }
+        var newUrl = new URL(reffurl);
+        var reffurlhttp = newUrl.origin;
+        var reffurlnothttp = newUrl.hostname;
+        console.log(region);
+
+
+
+        var ref = (typeof window.location.ancestorOrigins != 'undefined') ? window.location.ancestorOrigins : '';
+        if (!ref) {
+            ref = reffurlnothttp;
+        } else {
+            ref = (ref[window.location.ancestorOrigins.length - 1]) ? ref[window.location.ancestorOrigins.length - 1].toString().replace(/^(https?:\/\/){1}/, '') : (ref[0]) ? ref[0].toString().replace(/^(https?:\/\/){1}/, '') : reffurlnothttp;
+        }
+
+        var fullref = (typeof window.location.ancestorOrigins != 'undefined') ? window.location.ancestorOrigins : '';
+        if (!fullref) {
+            fullref = reffurlhttp;
+        } else {
+            fullref = (fullref[window.location.ancestorOrigins.length - 1]) ? fullref[window.location.ancestorOrigins.length - 1].toString() : (fullref[0]) ? fullref[0].toString() : reffurlhttp;
+        }
+
+
+
+        var referer = ref;
+        var fullreferer = fullref;
+        if (fullreferer == false || fullreferer == 'undefined') {
+            fullreferer = reffurl;
+        }
+        if (referer == false || referer == 'undefined') {
+            referer = reffurl;
+        }
+        if (referer == "avr.tivizor.ru") {
+            referer = new URL(pl_name).hostname;
+        }
+        if (fullreferer == "https://avr.tivizor.ru" || fullreferer == "https://avr.tivizor.ru/") {
+            referer = pl_name;
+        }
+
+        var cookieValue = getCookie("af_lpdid");
+        var lpdid = encodeURIComponent((cookieValue === undefined) ? "" : cookieValue);
+        var lpd_id = lpdid;
+        var sesion_id = new Date().getTime() + "" + Math.floor(Math.random() * 2147483647);
+        var pr = Math.floor(new Date().getTime() / 1000) + Math.floor(Math.random() * 214748364);
+        Array.prototype.rand = function() {
+            return this[Math.floor(Math.random() * this.length)];
+        };
+
+        /* ДЛЯ YOITUBE */
+        if (region == 'RU-MOW' || region == 'RU-MOS') {
+            var id_arr_1 = ['o_9rkWh8cIM', 'b7fGuhwnUTw', 'aWBbjYOfNTk', 'Zz0CAX38GS4', 'XjvdyAJMu0M', 'X4MHSdn395I', 'UJAQkefTn3o', 'SwlAE0A0G-8', 'NmfdZmJ_C44', 'BjgwqCsRVdE', '6YaE1a7-INU', '0jWa7IzyuYg'];
+        } else {
+            var id_arr_1 = ['2nh61eRZcAM', '4Z2IaYH8L40', 'T57vcRvscOQ', 'Wsey3FruWXs', 'Rg2W6N8npHg'];
+        }
+        /* /ДЛЯ YOITUBE */
+
+        /* ДЛЯ MP4 */
+        /*if (region == !'RU-MOW' || region == !'RU-MOS') {
+       var id_arr_1 = ['komanda_mechty.mp4', 'ludi_x.mp4', 'mib.mp4', 'pitomec.mp4', 'roketmen.mp4', 'godzila2.mp4', 'tobol.mp4']; 
+   } else { var id_arr_1 = ['bitva_za_zemlu.mp4', 'forsage.mp4', 'kapitan_marvel.mp4', 'mstiteli.mp4', 'pauk.mp4']; }*/
+        /* /ДЛЯ MP4 */
+
+        var ra = '1';
+        if (ra == 1) {
+            var puid9 = 7;
+        } else {
+            var puid9 = 2;
+        }
+
+
+        /* Боевой запуск баннеров */
+        //var banner_go = false;
+        var mp = 4;
+        if (id_pl == 12404 || id_pl == 12405 || id_pl == 12406 || id_pl == 15879) {
+            banner_go = false;
+        } else {
+            banner_go = track_domen + "banner.php?pl=" + id_pl;
+        }
+
+        if (id_pl == 16) {
+            banner_go = track_domen + "banner.php?pl=" + id_pl;
+            mp = 1;
+        }
+        /* Боевой запуск баннеров */
+
+        var urlAdv = track_domen + "vpaidjson.php?pl=" + id_pl + "&country=" + country + "&pathname_domen=" + location.pathname + "&strana=" + strana + "&flag_o=" + slej + "&sesion_id=" + sesion_id + "&pr=" + pr + "&lpd_id=" + lpd_id + "&defshifr=" + shifr + "&referer=" + referer + "&fullreferer=" + fullreferer + "&reffurl=" + reffurl + "&puid9=" + puid9 + "&" + location.search.substr(1);
+        aplayer.run({
+            elementId: "con",
+            videoElementId: "accessEl",
+            //video: "https://mob.i-trailer.ru/trailer/"+id_arr_1.rand(), 
+            video: "https://mob.i-trailer.ru/trailer/blank.mp4",
+            //youtubeId: id_arr_1.rand(),    
+            autoplay: true,
+            url: urlAdv,
+            //banner: track_domen+"banner.php?pl="+id_pl, 
+            banner: banner_go,
+            contentMute: true,
+            maxProcesses: mp,
+            maxAdPlays: 200,
+            skipContentTimeout: 10,
+            debug: false,
+            disableBackAsync: true,
+            upod: {
+                autoplay: 1,
+                log: 1,
+                volume: 0,
+                vast_preroll_andlimit: 100,
+                vast_addclick: 1,
+                vast_loadedmute: 1,
+                vast_default_volume: 0,
+                vpaid_mute_impression: 0,
+                vast_volume: 0,
+                vast_unmutebut: 0,
+                startvisibility: 0,
+                vpaidimpression: 0,
+                vpaidvideotimeout: 1,
+                vpaid_timeout3: 30,
+                vpaid_timeout4: 80,
+                //vpaid_timeout5: 10,
+                vast_timeout: 35,
+                vpaid_timeout: 35,
+                vast_longtimeout: 0.7,
+            },
+
+
+            /*timeouts:{
+                impression: 35,
+                impressionStarted: 35,
+                awaitComplete: 10,
+                completeImpression: 10,
+                playAwait: 15,
+            }*/
+        });
+
+        window.addEventListener("ads-player-event", e => {
+            const {
+                name,
+                id,
+                value
+            } = e.detail;
+            console.log(":::[evt]", name, {
+                id,
+                value
+            });
+            eventObrab(name, id, value);
+        });
+
+        function SendVisibileVastroll(id_pl, vis, country) {
+            $.ajax({
+                url: "vast_track.php",
+                type: "get",
+                async: false,
+                cache: false,
+                data: {
+                    onvis: 1,
+                    id_pl: id_pl,
+                    vis: vis,
+                    country: country,
+                    defshifr: shifr
+                },
+                success: function(xhr) {
+                    console.log("Успешно отослал видимость - " + vis + " площадка ID - " + id_pl);
+                }
+            });
+        }
+
+        function SendAllAdvVastroll(id_pl, country) {
+            $.ajax({
+                url: "vast_track.php",
+                type: "get",
+                async: false,
+                cache: false,
+                data: {
+                    onalladv: 1,
+                    id_pl: id_pl,
+                    country: country,
+                    defshifr: shifr
+                }
+            });
+        }
+
+        function SendAdvStatistic(idDomen, idComp, idSite) {
+            /*$.ajax({
+                url: "comp_advert_stat.php",
+                type: "get",
+                async:false,
+                cache: false,
+                data: {
+                    domen: idDomen,
+                    comp: idComp,
+                    site: idSite
+                }
+            });*/
+            return true;
+        }
+
+        function SendVisibileVastrollComp(id_c, vis) {
+            $.ajax({
+                url: "vast_track.php",
+                type: "get",
+                async: false,
+                cache: false,
+                data: {
+                    onviscomp: 1,
+                    id_c: id_c,
+                    vis: vis,
+                    defshifr: shifr
+                },
+                success: function(xhr) {
+                    console.log("Успешно отослал видимость - " + vis + " компания ID - " + id_c);
+                }
+            });
+        }
+
+        function SendErrorVastrollComp(id_c) {
+            $.ajax({
+                url: "vast_track.php",
+                type: "get",
+                async: false,
+                cache: false,
+                data: {
+                    onverrorcomp: 1,
+                    id_c: id_c,
+                    defshifr: shifr
+                },
+                success: function(xhr) {
+                    //console.info('VPAUT ERROR '+ error_info.id);
+                }
+            });
+        }
+
+        function SendBlockVastroll(id_pl, id_c, country, slej, mark, salt) {
+            $.ajax({
+                url: "vast_track.php",
+                type: "get",
+                data: {
+                    onbl: 1,
+                    id_pl: id_pl,
+                    id_c: id_c,
+                    country: country,
+                    flag_o: slej,
+                    mark: mark,
+                    salt: salt,
+                    defshifr: shifr
+                }
+                /*,
+                        success: function(xhr){
+                           console.log("Send to "+id_c);
+                        }*/
+            });
+        }
+    </script>
+    <img src="https://kimberlite.io/rtb/syncd" style="position:absolute; left:-9999px;" alt="" />
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m, e, t, r, i, k, a) {
+            m[i] = m[i] || function() {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            var z = null;
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) {
+                if (document.scripts[j].src === r) {
+                    return;
+                }
+            }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(38182120, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/38182120" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+2025/01/09-22:20:00.923 99ac Reusing MANIFEST C:\Users\gogov\AppData\Local\Microsoft\Edge\User Data\Default\Local Extension Settings\fjnehcbecaggobjholekjijaaekbnlgj/MANIFEST-000001
+2025/01/09-22:20:00.926 99ac Recovering log #4976
+2025/01/09-22:20:00.938 99ac Reusing old log C:\Users\gogov\AppData\Local\Microsoft\Edge\User Data\Default\Local Extension Settings\fjnehcbecaggobjholekjijaaekbnlgj/004976.log 
+2025/01/09-22:20:02.452 4534 Compacting 2@0 + 0@1 files
+2025/01/09-22:20:02.474 4534 Generated table #4979@0: 4 keys, 292848 bytes
+2025/01/09-22:20:02.474 4534 Compacted 2@0 + 0@1 files => 292848 bytes
+2025/01/09-22:20:02.476 4534 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/01/09-22:20:02.476 4534 Delete type=2 #4974
+2025/01/09-22:20:02.476 4534 Delete type=2 #4977
+2025/01/09-22:35:31.335 4534 Level-0 table #4981: started
+2025/01/09-22:35:31.361 4534 Level-0 table #4981: 1994486 bytes OK
+2025/01/09-22:35:31.362 4534 Delete type=0 #4976
+2025/01/09-22:55:31.341 4534 Compacting 1@0 + 1@1 files
+2025/01/09-22:55:31.352 4534 Generated table #4982@0: 11 keys, 291401 bytes
+2025/01/09-22:55:31.352 4534 Compacted 1@0 + 1@1 files => 291401 bytes
+2025/01/09-22:55:31.354 4534 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/01/09-22:55:31.355 4534 Delete type=2 #4979
+2025/01/09-22:55:31.355 4534 Delete type=2 #4981
+2025/01/09-23:05:31.846 4534 Level-0 table #4984: started
+2025/01/09-23:05:31.885 4534 Level-0 table #4984: 1979070 bytes OK
+2025/01/09-23:05:31.886 4534 Delete type=0 #4980
+2025/01/09-23:30:01.269 4534 Compacting 1@0 + 1@1 files
+2025/01/09-23:30:01.278 4534 Generated table #4985@0: 11 keys, 290772 bytes
+2025/01/09-23:30:01.278 4534 Compacted 1@0 + 1@1 files => 290772 bytes
+2025/01/09-23:30:01.279 4534 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/01/09-23:30:01.280 4534 Delete type=2 #4982
+2025/01/09-23:30:01.280 4534 Delete type=2 #4984
+2025/01/09-23:40:32.417 4534 Level-0 table #4987: started
+2025/01/09-23:40:32.436 4534 Level-0 table #4987: 1976015 bytes OK
+2025/01/09-23:40:32.437 4534 Delete type=0 #4983
+2025/01/10-00:05:31.325 4534 Compacting 1@0 + 1@1 files
+2025/01/10-00:05:31.333 4534 Generated table #4988@0: 11 keys, 290483 bytes
+2025/01/10-00:05:31.333 4534 Compacted 1@0 + 1@1 files => 290483 bytes
+2025/01/10-00:05:31.334 4534 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/01/10-00:05:31.334 4534 Delete type=2 #4985
+2025/01/10-00:05:31.334 4534 Delete type=2 #4987

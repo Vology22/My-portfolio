@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "وصف التطبيق",
+      "message": "احصل على إمكانية الوصول إلى أي موقع ويب وحظر الإعلانات باستخدام امتداد وكيل VPN المجاني"
+   },
+   "appName": {
+      "description": "اسم التطبيق",
+      "message": "وكيل VPN مجاني ومانع الإعلانات - Planet VPN"
+   },
+   "appNameBeta": {
+      "description": "اسم التطبيق",
+      "message": "Planet VPN (نسخة تجريبية) - خدمة وكيل VPN مجانية"
+   }
+}

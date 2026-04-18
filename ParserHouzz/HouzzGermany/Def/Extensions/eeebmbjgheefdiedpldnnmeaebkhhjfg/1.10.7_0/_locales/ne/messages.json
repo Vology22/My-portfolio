@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "कुनै पनि वेबसाइटमा पहुँच पाउनुहोस् र हाम्रो नि:शुल्क VPN प्रोक्सी विस्तारको साथ विज्ञापनहरू रोक्नुहोस्।"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "नि: शुल्क VPN प्रोक्सी र विज्ञापन अवरोधक - Planet VPN"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "Planet VPN (BETA) - नि: शुल्क VPN सेवा।"
+   }
+}

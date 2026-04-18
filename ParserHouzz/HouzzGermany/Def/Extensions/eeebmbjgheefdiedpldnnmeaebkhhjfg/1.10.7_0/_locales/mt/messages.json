@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Free VPN Proxy u ad blocker - Planet VPN",
+    "description": "The name of the application"
+  },
+  "appNameBeta": {
+    "message": "Planet VPN (BETA) - Servizz VPN b'xejn",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Ikseb aċċess għal kwalunkwe websajt u imblokka r-reklami bl-estensjoni tagħna ta' prokura VPN b'xejn",
+    "description": "The description of the application"
+  }
+}

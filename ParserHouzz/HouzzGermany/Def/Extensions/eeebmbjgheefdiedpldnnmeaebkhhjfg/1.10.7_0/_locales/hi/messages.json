@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "हमारे मुफ्त वीपीएन प्रॉक्सी एक्सटेंशन के साथ किसी भी वेबसाइट तक पहुंच प्राप्त करें और विज्ञापनों को ब्लॉक करें।"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "मुफ्त वीपीएन प्रॉक्सी और विज्ञापन ब्लॉकर - प्लैनेट वीपीएन"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "प्लैनेट वीपीएन (बीटा) - मुफ्त वीपीएन सेवा।"
+   }
+}

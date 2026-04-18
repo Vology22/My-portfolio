@@ -1,0 +1,36 @@
+2025/01/10-17:08:01.732 5348 Reusing MANIFEST C:\Users\gogov\AppData\Local\Microsoft\Edge\User Data\Default\Local Storage\leveldb/MANIFEST-000001
+2025/01/10-17:08:01.784 5348 Recovering log #4168
+2025/01/10-17:08:01.823 5348 Reusing old log C:\Users\gogov\AppData\Local\Microsoft\Edge\User Data\Default\Local Storage\leveldb/004168.log 
+2025/01/10-17:08:29.235 6d18 Level-0 table #4172: started
+2025/01/10-17:08:29.248 6d18 Level-0 table #4172: 17238 bytes OK
+2025/01/10-17:08:29.251 6d18 Delete type=0 #4168
+2025/01/10-17:31:11.513 6d18 Level-0 table #4174: started
+2025/01/10-17:31:11.519 6d18 Level-0 table #4174: 18590 bytes OK
+2025/01/10-17:31:11.522 6d18 Delete type=0 #4171
+2025/01/10-17:31:11.522 6d18 Compacting 4@0 + 2@1 files
+2025/01/10-17:31:11.574 6d18 Generated table #4175@0: 5169 keys, 2118810 bytes
+2025/01/10-17:31:11.609 6d18 Generated table #4176@0: 3189 keys, 1600317 bytes
+2025/01/10-17:31:11.609 6d18 Compacted 4@0 + 2@1 files => 3719127 bytes
+2025/01/10-17:31:11.610 6d18 compacted to: files[ 0 2 4 0 0 0 0 ]
+2025/01/10-17:31:11.611 6d18 Delete type=2 #4164
+2025/01/10-17:31:11.611 6d18 Delete type=2 #4165
+2025/01/10-17:31:11.611 6d18 Delete type=2 #4167
+2025/01/10-17:31:11.611 6d18 Delete type=2 #4169
+2025/01/10-17:31:11.612 6d18 Delete type=2 #4172
+2025/01/10-17:31:11.612 6d18 Delete type=2 #4174
+2025/01/10-17:44:21.018 6d18 Level-0 table #4178: started
+2025/01/10-17:44:21.024 6d18 Level-0 table #4178: 21218 bytes OK
+2025/01/10-17:44:21.026 6d18 Delete type=0 #4173
+2025/01/10-18:25:20.482 6d18 Level-0 table #4180: started
+2025/01/10-18:25:20.487 6d18 Level-0 table #4180: 21973 bytes OK
+2025/01/10-18:25:20.488 6d18 Delete type=0 #4177
+2025/01/10-18:44:17.733 6d18 Level-0 table #4182: started
+2025/01/10-18:44:17.793 6d18 Level-0 table #4182: 18775 bytes OK
+2025/01/10-18:44:17.797 6d18 Delete type=0 #4179
+2025/01/10-18:44:17.983 6d18 Level-0 table #4184: started
+2025/01/10-18:44:17.992 6d18 Level-0 table #4184: 15275 bytes OK
+2025/01/10-18:44:17.994 6d18 Delete type=0 #4181
+2025/01/10-18:44:17.995 6d18 Compacting 4@0 + 2@1 files
+2025/01/10-18:44:18.029 6d18 Generated table #4185@0: 8465 keys, 203329 bytes
+2025/01/10-18:44:18.029 6d18 Compacted 4@0 + 2@1 files => 203329 bytes
+2025/01/10-18:44:18.030 6d18 compacted to: files[ 0 1 4 0 0 0 0 ]

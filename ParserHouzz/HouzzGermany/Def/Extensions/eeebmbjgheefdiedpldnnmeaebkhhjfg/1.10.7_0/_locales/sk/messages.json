@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Získajte prístup na akúkoľvek webovú stránku a blokujte reklamy s našim bezplatným rozšírením proxy VPN"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Bezplatný VPN Proxy a blokovanie reklám - Planet Vpn"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "Planet VPN (BETA) - bezplatná služba VPN"
+   }
+}

@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "უფასო VPN პროქსი და რეკლამების ბლოკერი - Planet VPN",
+    "description": "The name of the application"
+  },
+  "appNameBeta": {
+    "message": "Planet VPN (BETA) - უფასო VPN სერვისი",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "მიიღეთ წვდომა ნებისმიერ ვებ გვერდზე და დაბლოკეთ რეკლამები ჩვენი უფასო VPN პროქსი გაფართოებით",
+    "description": "The description of the application"
+  }
+}

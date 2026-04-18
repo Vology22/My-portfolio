@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Gratis VPN Proxy ak bloke anons - Planet VPN",
+    "description": "The name of the application"
+  },
+  "appNameBeta": {
+    "message": "Planet VPN (BETA) - Sèvis VPN gratis",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Jwenn aksè nan nenpòt sit entènèt ak bloke anons ak ekstansyon gratis VPN proxy nou an",
+    "description": "The description of the application"
+  }
+}

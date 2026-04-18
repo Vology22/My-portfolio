@@ -1,0 +1,575 @@
+<script type="text/javascript"> console.info('Country RU');</script><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AsPlay</title>
+    <script src="https://yastatic.net/pcode/adfox/adfox-cookie-matching.js?owner_id=226279"></script>
+    <!-- <script src="//mob.i-trailer.ru/new_player/playerjs-konteiner1.js"></script>
+    <script src="//mob.i-trailer.ru/new_player/apl-2.0.162.js"></script> -->
+    <script src="https://mob.i-trailer.ru/trailer/playerjs-konteiner11.js"></script>
+    <script src="https://mob.i-trailer.ru/trailer/apl-2.0.162.js"></script>
+    <script src="//mob.i-trailer.ru/jquery-3.3.1.min.js"></script>
+
+    <style>
+        body,
+        html {
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            /*overflow: hidden;*/
+        }
+
+        #con {
+            height: 100%;
+            width: 100%;
+            background: #000;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        .final-video {
+            height: 100%;
+            width: 100%;
+        }
+
+        .full {
+            height: 100%;
+            width: 100%;
+        }
+
+        #adsVideo {
+            /*position: absolute;*/
+            display: none;
+        }
+
+        .vpaid {
+            opacity: 1;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+
+        .vpaid pre {
+            color: wheat;
+            font-size: 12px;
+            text-align: left;
+        }
+
+        .vpaid-show {
+            position: absolute;
+            pointer-events: auto;
+            opacity: 1;
+            height: 100%;
+            width: 100%;
+        }
+
+        .vpaid-hidden {
+            opacity: 0;
+            display: none;
+            position: absolute;
+            pointer-events: none;
+        }
+
+        .absolute {
+            position: absolute;
+        }
+
+        .ads-volume {
+            height: 48px;
+            width: 48px;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            cursor: pointer;
+            /*z-index: 24000 !important;*/
+            /*background: red;*/
+        }
+
+        .ads-close {
+            height: 48px;
+            width: 48px;
+            /*z-index: 24000 !important;*/
+            /*background: red;*/
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            cursor: pointer;
+        }
+
+        .ads-container {
+            position: absolute;
+        }
+
+        .ads-banner {
+            width: 100%;
+            height: 100%;
+            /*background-color: red;*/
+            position: absolute !important;
+            border: 0 !important;
+            overflow: hidden;
+            z-index: 9999999;
+        }
+
+
+        .ads-banner-show {
+            border: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute !important;
+            border: 0 !important;
+            overflow: hidden;
+            z-index: 9999999;
+        }
+
+        .ads-banner-hide {
+            display: none;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            position: absolute !important;
+            border: 0 !important;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="con">
+        <video class="vpaid-hidden" id="accessEl" src="https://mob.i-trailer.ru/trailer/blank.mp4" controls></video>
+    </div>
+    <div id="ads-banner"></div>
+    <script type="text/javascript">
+        function eventObrab(name, id, value) {
+            //var banner-show = document.getElementById("ads-banner");
+            //banner-show.classList.add("ads-banner-show");
+            switch (name) {
+                case 'onAdsLoadEvent': {
+                    if (value == "halo") {
+                        parent.postMessage("surok_vast_halo", "*");
+                        console.info('vast_halo VPAID');
+                    }
+                    break;
+                }
+                case 'onAdsEndEvent': {
+                    if (value == "endhalo") {
+                        parent.postMessage("surok_vast_nothalo", "*");
+                        console.info('vast_endhalo VPAID');
+                    }
+                    break;
+                }
+                case 'visibility': {
+                    console.log("Видимость VPAID - ", value);
+                    visible_vastroll_vid = parseInt(value);
+                    break;
+                }
+                case 'impression': {
+                    //var banner-show = document.getElementById("ads-banner");             
+                    // document.getElementById("ads-banner").classList.add("ads-banner-hide");
+                    // document.getElementById("ads-banner");.classList.remove("ads-banner-show");
+
+                    if (!is_adv) SendAllAdvVastroll(id_pl, country);
+                    is_adv = true;
+                    SendAdvStatistic(idDomen, id, id_pl);
+                    parent.postMessage("surok_start_reklam", "*");
+                    console.info('vast_Impression VPAID');
+                    console.info('vast_Sender VPAID Test ' + is_each);
+                    console.info('vast_visability VPAID Test ' + visible_vastroll_vid);
+                    if (!is_each) {
+                        if (!visible_vastroll) {
+                            SendBlockVastroll(id_pl, id, country, slej, mark, salt);
+                            SendVisibileVastroll(id_pl, visible_vastroll_vid, country);
+                        }
+                    } else {
+                        console.info('vast_Sender VPAID ' + is_each);
+                        SendVisibileVastroll(id_pl, visible_vastroll_vid, country);
+                    }
+                    SendVisibileVastrollComp(id, visible_vastroll_vid);
+                    visible_vastroll++;
+                    break;
+                }
+                case 'complete': {
+                    //var banner-show = document.getElementById("ads-banner"); 
+                    document.getElementById("ads-banner").classList.add("ads-banner-show");
+                    document.getElementById("ads-banner").classList.remove("ads-banner-hide");
+
+                    parent.postMessage("surok_complete_adv", "*");
+                    console.info('vast_complete VPAID');
+                    break;
+                }
+                case 'userClose': {
+                    parent.postMessage("surok_complete_adv", "*");
+                    console.info('vast_complete VPAID');
+                    break;
+                }
+                case 'content': {
+                    if (value == 'start') {
+                        if (!is_adv) parent.postMessage("surok_no_reklam", "*");
+                        if (is_adv) parent.postMessage("surok_play_reklam", "*");
+                        parent.postMessage("surok_check_reklamend", "*");
+                        console.info('play VPAID');
+                    } else if (value == 'finish') {
+                        parent.postMessage("surok_check_reklamend", "*");
+                        console.info('end VPAID');
+                    } else if (value == 'final_content') {
+                        parent.postMessage("surok_check_reklamend", "*");
+                        console.info('FINISH_ALL_VPAID');
+                        break;
+                    }
+                    break;
+                }
+            }
+        }
+
+        let timerConnection = setTimeout(function isSetConnection() {
+            parent.postMessage("connection_established_vid_vpaut", "*");
+            console.info("Connetion Vpaut Established");
+            timerConnection = setTimeout(isSetConnection, 3000);
+        }, 3000);
+        parent.postMessage("init_connection_player", "*");
+        $.ajaxSetup({
+            cache: false
+        });
+        var visible_vastroll = 0;
+        var visible_vastroll_vid = 0;
+        var is_adv = false;
+        var is_each = 1;
+        var slej = 0;
+        var id_pl = 14149;
+        var mark = 1736177799;
+        var salt = 'fab575c7f7fbee9d530a3184344ebed4b4ca93c2';
+        var track_domen = 'https://avr.i-trailer.ru/vpaut/';
+        var country = 'RU';
+        var strana = 'RU';
+        var comp_id = 0;
+        var shifr = 'Hfinu8hBlL_Blll66hF4UyaQi6IeyytTOr5m9la';
+        var idDomen = 1;
+        var pl_name = 'https://matrica-lordfilm.ru';
+        var ua = 'Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/131.0.0.0%20Safari/537.36%20Edg/131.0.0.0';
+        var ip = '77.66.180.189';
+        var region = 'KDA';
+        var reffurl = 'https://matrica-lordfilm.ru/film/chelovek-pauk-net-puti-domoj-2021/?ysclid=m5l186aepz990260923';
+        if (reffurl == false || reffurl == 'undefined') {
+            reffurl = pl_name;
+        }
+        var newUrl = new URL(reffurl);
+        var reffurlhttp = newUrl.origin;
+        var reffurlnothttp = newUrl.hostname;
+        var adrcid = 'null';
+        console.log('ADRCID ' + adrcid + ' VID');
+        console.log(region);
+
+        SendWatchStatistic(idDomen, id_pl);
+        setTimeout(CreatePlayer, 300);
+
+        function CreatePlayer() {
+            var ref = (typeof window.location.ancestorOrigins != 'undefined') ? window.location.ancestorOrigins : '';
+            if (!ref) {
+                ref = reffurlnothttp;
+            } else {
+                ref = (ref[window.location.ancestorOrigins.length - 1]) ? ref[window.location.ancestorOrigins.length - 1].toString().replace(/^(https?:\/\/){1}/, '') : (ref[0]) ? ref[0].toString().replace(/^(https?:\/\/){1}/, '') : reffurlnothttp;
+            }
+
+            var fullref = (typeof window.location.ancestorOrigins != 'undefined') ? window.location.ancestorOrigins : '';
+            if (!fullref) {
+                fullref = reffurlhttp;
+            } else {
+                fullref = (fullref[window.location.ancestorOrigins.length - 1]) ? fullref[window.location.ancestorOrigins.length - 1].toString() : (fullref[0]) ? fullref[0].toString() : reffurlhttp;
+            }
+
+
+            var referer = ref;
+            var fullreferer = fullref;
+            if (fullreferer == false || fullreferer == 'undefined') {
+                fullreferer = reffurl;
+            }
+            if (referer == false || referer == 'undefined') {
+                referer = reffurl;
+            }
+            if (referer == "avr.i-trailer.ru") {
+                referer = new URL(pl_name).hostname;
+            }
+            if (fullreferer == "https://avr.i-trailer.ru" || fullreferer == "https://avr.i-trailer.ru/") {
+                referer = pl_name;
+            }
+
+            function getCookie(name) {
+                var matches = document.cookie.match(new RegExp(
+                    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+                ));
+                return matches ? decodeURIComponent(matches[1]) : undefined;
+            }
+            var cookieValue = getCookie("af_lpdid");
+            var lpdid = encodeURIComponent((cookieValue === undefined) ? "" : cookieValue);
+            var lpd_id = lpdid;
+            var sesion_id = new Date().getTime() + "" + Math.floor(Math.random() * 2147483647);
+            var pr = Math.floor(new Date().getTime() / 1000) + Math.floor(Math.random() * 214748364);
+            Array.prototype.rand = function() {
+                return this[Math.floor(Math.random() * this.length)];
+            };
+
+            // console.log('referer домен без протоколв - ' + referer); 
+            // console.log('fullreferer домен с протоколом - ' + fullreferer);
+            // console.log('reffurl полная ссылка - ' + reffurl); 
+
+            /* ДЛЯ MP4 */
+            if (region == !'RU-MOW' || region == !'RU-MOS') {
+                var id_arr_1 = ['komanda_mechty.mp4', 'ludi_x.mp4', 'mib.mp4', 'pitomec.mp4', 'roketmen.mp4', 'godzila2.mp4', 'tobol.mp4'];
+            } else {
+                var id_arr_1 = ['bitva_za_zemlu.mp4', 'forsage.mp4', 'kapitan_marvel.mp4', 'mstiteli.mp4', 'pauk.mp4'];
+            }
+            /* /ДЛЯ MP4 */
+
+            var ra = '1';
+            if (ra == 1) {
+                var puid9 = 7;
+            } else {
+                var puid9 = 2;
+            }
+
+            /* Боевой запуск баннеров */
+            //var banner_go = false;
+            var mp = 4;
+            if (id_pl == 12404 || id_pl == 12405 || id_pl == 12406 || id_pl == 15879) {
+                banner_go = false;
+            } else {
+                banner_go = track_domen + "banner.php?pl=" + id_pl;
+            }
+
+            if (id_pl == 16) {
+                banner_go = track_domen + "banner.php?pl=" + id_pl;
+                mp = 1;
+            }
+            /* Боевой запуск баннеров */
+
+            /*Для теста баннеров на видеопримере*/
+            // if (id_pl == 16 || id_pl == 16018 || id_pl == 13797 || id_pl == 5640 || id_pl == 15759 || id_pl == 14583 || id_pl == 16004 || id_pl == 16741 || id_pl == 13519 || id_pl == 15908 || id_pl == 16638 || id_pl == 16789 || id_pl == 12593 || id_pl == 15909 || id_pl == 13573 || id_pl == 16994 || id_pl == 17194 || id_pl == 12894 || id_pl == 16547 || id_pl == 16609 || id_pl == 17010 || id_pl == 16159 || id_pl == 17076 || id_pl == 13799 || id_pl == 17036 || id_pl == 16482 || id_pl == 16357 || id_pl == 16146) {
+            //     banner_go = track_domen+"banner.php?pl="+id_pl;
+            // } else {banner_go = false;}
+            /*Для теста на видеопримере*/
+
+            var urlAdv = track_domen + "vpaidjson.php?pl=" + id_pl + "&country=" + country + "&pathname_domen=" + location.pathname + "&strana=" + strana + "&flag_o=" + slej + "&sesion_id=" + sesion_id + "&pr=" + pr + "&lpd_id=" + lpd_id + "&defshifr=" + shifr + "&referer=" + referer + "&fullreferer=" + fullreferer + "&reffurl=" + reffurl + "&ip=" + ip + "&adrcid=" + adrcid + "&puid9=7&" + location.search.substr(1);
+
+            window.aplayer.run({
+                elementId: "con",
+                videoElementId: "accessEl",
+                //video: "https://mob.i-trailer.ru/trailer/"+id_arr_1.rand(), 
+                video: "https://mob.i-trailer.ru/trailer/blank.mp4",
+                autoplay: true,
+                url: urlAdv,
+                banner: banner_go,
+                contentMute: true,
+                maxProcesses: mp,
+                maxAdPlays: 200,
+                skipContentTimeout: 10,
+                debug: false,
+                //disableBackAsync:true,
+                upod: {
+                    autoplay: 1,
+                    log: 1,
+                    volume: 0,
+                    vast_preroll_andlimit: 100,
+                    vast_addclick: 1,
+                    vast_loadedmute: 1,
+                    vast_default_volume: 0,
+                    vpaid_mute_impression: 0,
+                    vast_volume: 0,
+                    vast_unmutebut: 0,
+                    startvisibility: 0,
+                    vpaidimpression: 0,
+                    vpaidvideotimeout: 1,
+                    vpaid_timeout3: 30,
+                    vpaid_timeout4: 80,
+                    //vpaid_timeout5: 10,
+                    vast_timeout: 35,
+                    vpaid_timeout: 35,
+                    vast_longtimeout: 0.7,
+                },
+
+
+                /*timeouts:{
+                    impression: 35,
+                    impressionStarted: 35,
+                    awaitComplete: 10,
+                    completeImpression: 10,
+                    playAwait: 15,
+                }*/
+            });
+        }
+
+        window.addEventListener("ads-player-event", e => {
+            const {
+                name,
+                id,
+                value
+            } = e.detail;
+            console.log(":::[evt]", name, {
+                id,
+                value
+            });
+            eventObrab(name, id, value);
+        });
+
+        function SendVisibileVastroll(id_pl, vis, country) {
+            $.ajax({
+                url: "vast_track.php",
+                type: "get",
+                async: false,
+                cache: false,
+                data: {
+                    onvis: 1,
+                    id_pl: id_pl,
+                    vis: vis,
+                    country: country,
+                    defshifr: shifr
+                },
+                success: function(xhr) {
+                    console.log("Успешно отослал видимость - " + vis + " площадка ID - " + id_pl);
+                }
+            });
+        }
+
+        function SendAllAdvVastroll(id_pl, country) {
+            $.ajax({
+                url: "vast_track.php",
+                type: "get",
+                async: false,
+                cache: false,
+                data: {
+                    onalladv: 1,
+                    id_pl: id_pl,
+                    country: country,
+                    defshifr: shifr
+                }
+            });
+        }
+
+        function SendAdvStatistic(idDomen, idComp, idSite) {
+            /* $.ajax({
+                 url: "comp_advert_stat.php",
+                 type: "get",
+                 async:false,
+                 cache: false,
+                 data: {
+                     adv: 1,
+                     domen: idDomen,
+                     comp: idComp,
+                     site: idSite
+                 }
+             });*/
+            return true;
+        }
+
+        function SendWatchStatistic(idDomen, idSite) {
+            /*$.ajax({
+                url: "comp_advert_stat.php",
+                type: "get",
+                async:false,
+                cache: false,
+                data: {
+                    watch: 1,
+                    domen: idDomen,
+                    site: idSite
+                }
+            });*/
+            return true;
+        }
+
+        function SendVisibileVastrollComp(id_c, vis) {
+            $.ajax({
+                url: "vast_track.php",
+                type: "get",
+                async: false,
+                cache: false,
+                data: {
+                    onviscomp: 1,
+                    id_c: id_c,
+                    vis: vis,
+                    defshifr: shifr
+                },
+                success: function(xhr) {
+                    console.log("Успешно отослал видимость - " + vis + " компания ID - " + id_c);
+                }
+            });
+        }
+
+        function SendErrorVastrollComp(id_c) {
+            $.ajax({
+                url: "vast_track.php",
+                type: "get",
+                async: false,
+                cache: false,
+                data: {
+                    onverrorcomp: 1,
+                    id_c: id_c,
+                    defshifr: shifr
+                },
+                success: function(xhr) {
+                    //console.info('VPAUT ERROR '+ error_info.id);
+                }
+            });
+        }
+
+        function SendBlockVastroll(id_pl, id_c, country, slej, mark, salt) {
+            $.ajax({
+                url: "vast_track.php",
+                type: "get",
+                data: {
+                    onbl: 1,
+                    id_pl: id_pl,
+                    id_c: id_c,
+                    country: country,
+                    flag_o: slej,
+                    defshifr: shifr
+                }
+                /*,
+                        success: function(xhr){
+                           console.log("Send to "+id_c);
+                        }*/
+            });
+        }
+    </script>
+    <img src="https://kimberlite.io/rtb/syncd" style="position:absolute; left:-9999px;" alt="" />
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m, e, t, r, i, k, a) {
+            m[i] = m[i] || function() {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            var z = null;
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) {
+                if (document.scripts[j].src === r) {
+                    return;
+                }
+            }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(36861735, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/36861735" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <img src="https://sync.opendsp.ru/match/oSSP.ifr" style="position:absolute; left:-9999px;" alt="" />
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Добијте приступ било којој веб локацији и блокирајте огласе помоћу нашег бесплатног ВПН прокси проширења"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Бесплатни ВПН прокси и блокатор огласа - Планет ВПН"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "Планет ВПН (БЕТА) - Бесплатна ВПН услуга"
+   }
+}

@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "La description de l'application",
+      "message": "Accédez à n'importe quel site Web et bloquez les publicités avec notre extension de proxy VPN gratuite"
+   },
+   "appName": {
+      "description": "Le nom de la demande",
+      "message": "Proxy VPN gratuit et bloqueur de publicités - Planet VPN"
+   },
+   "appNameBeta": {
+      "description": "Application gratuite pour le service proxy VPN. Utilisez-le gratuitement pour accéder à des sites Web verrouillés avec une vitesse maximale.",
+      "message": "Planet VPN (BETA) - Service proxy VPN gratuit"
+   }
+}

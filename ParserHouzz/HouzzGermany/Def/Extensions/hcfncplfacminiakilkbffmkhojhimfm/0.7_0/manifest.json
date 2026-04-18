@@ -1,0 +1,27 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png"
+      },
+      "default_popup": "data/panel/index.html"
+   },
+   "default_locale": "en_US",
+   "description": "__MSG_appDesc__",
+   "homepage_url": "https://www.bytopics.com/",
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "48": "data/icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs0JppUs4OeA7J14udDsLF2iKSpSi1rIzVTiqAO7qhtpbQcH46bDWpZR48+xs4+ddDmT6eEmnVdNng8ALObR7gVyTW4EVr7uKHMtzNx/9uZQaQjh0nDBiL+vrqzPxD+IADyelQkbNkmXdzLXyHMdAPpfmZoS/MRQoL/W/5nrYqxvMr8fcQKTsroVc83TxH6I2cCoeISNPJ9LhgF2qY7EgpKGS8CM3EYZg8hyHkrz7aJmzkK7gezW40daGUhvrjcUT+Gtse8oUnPaXs9+k2kusUy5r3b2M8PU8rHqCnzZ9JELKzC+ueka315c9W4eekfTS4eUA9cdRc2HHav5YnPA/YwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "storage", "webRequest", "webRequestBlocking", "proxy", "\u003Call_urls>" ],
+   "short_name": "Free Vpn",
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "0.7"
+}

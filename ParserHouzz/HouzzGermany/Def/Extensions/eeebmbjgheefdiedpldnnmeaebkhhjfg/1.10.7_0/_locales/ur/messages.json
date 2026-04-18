@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "ہماری مفت VPN پراکسی ایکسٹینشن کے ساتھ کسی بھی ویب سائٹ تک رسائی حاصل کریں اور اشتہارات کو مسدود کریں۔"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "مفت VPN پراکسی اور ایڈ بلاکر - Planet VPN"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "مفت VPN پراکسی اور ایڈر - Planet VPN"
+   }
+}

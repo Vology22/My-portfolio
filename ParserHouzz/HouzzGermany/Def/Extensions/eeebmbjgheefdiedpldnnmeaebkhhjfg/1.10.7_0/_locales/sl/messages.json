@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Pridobite dostop do katerega koli spletnega mesta in blokirajte oglase z našo brezplačno razširitev VPN Proxy"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Brezplačni VPN proxy in blokator oglasov - Planet VPN"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "Planet VPN (beta) - brezplačna storitev VPN"
+   }
+}

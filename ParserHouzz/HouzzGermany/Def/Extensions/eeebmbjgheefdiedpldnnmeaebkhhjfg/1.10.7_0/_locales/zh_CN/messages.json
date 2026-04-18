@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "通过免费VPN代理扩展访问任何网站和拦截广告"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "免费VPN代理和广告阻挡-行星VPN"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "VPN(BETA)-免费VPN服务"
+   }
+}

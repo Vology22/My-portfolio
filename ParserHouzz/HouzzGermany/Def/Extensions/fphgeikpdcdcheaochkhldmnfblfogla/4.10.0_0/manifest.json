@@ -1,0 +1,34 @@
+{
+   "action": {
+      "default_icon": "icons/nordvpn-48-inactive.png",
+      "default_popup": "index.html",
+      "default_title": "NordVPN"
+   },
+   "background": {
+      "service_worker": "background.bundle.js"
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "description": "NordVPN for Microsoft Edge: Experience amazing security and lightning-fast speed wrapped in a feather-light extension.",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "./icons/nordvpn-128-active.png",
+      "16": "./icons/nordvpn-16-active.png",
+      "32": "./icons/nordvpn-32-active.png",
+      "48": "./icons/nordvpn-48-active.png"
+   },
+   "incognito": "spanning",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2bwxj1STXYbTN/d6PCzyQ4PAo9m5/Vpzo8KWMrn9v/7Tv52BNY+yjSDvIRfQy4vQLynXtUYYlpYIXrW8gz+XRm3Dd/TQHDRXGOjgiHxOnkBzzlla4J3XaG5WI949r2+Xq2dnDj1uGB5odtPrtO4yH+UAc3C+j7DECJ2/pEIsOJWv+unVGVqnWANaVs0dZiprRBDM5M8kOL/GfhkVh8qTPjdX2RvdMyBu1O/S4txs/Gtz5tsNMPcUE8ViKdFusdvS3TdC++G6npyzy5MFFVRHexm6OK3FWEv6jgoVSrdh2G7eBpBP1h9OLjqNeUmp4S50yh2sa3cqyXbOZeyedeG+TQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "116",
+   "name": "NordVPN - the Fastest VPN proxy for privacy",
+   "permissions": [ "alarms", "scripting", "proxy", "webRequest", "webNavigation", "privacy", "storage", "notifications", "tabs", "contextMenus", "activeTab", "unlimitedStorage", "downloads", "webRequestAuthProvider", "offscreen" ],
+   "short_name": "NordVPN",
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "4.10.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "csNotification.bundle.css", "csKillSwitch.bundle.css", "killswitch.html", "fingerprint.html" ]
+   } ]
+}

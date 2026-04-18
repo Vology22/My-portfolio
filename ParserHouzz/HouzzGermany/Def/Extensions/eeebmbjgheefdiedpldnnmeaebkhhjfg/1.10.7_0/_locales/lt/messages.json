@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Gaukite prieigą prie bet kurios svetainės ir užblokuokite skelbimus naudodami nemokamą VPN tarpinio serverio plėtinį"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Nemokamas VPN tarpinis serveris ir skelbimų blokatorius - Planet VPN"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "Planet VPN (BETA) – nemokama VPN paslauga"
+   }
+}

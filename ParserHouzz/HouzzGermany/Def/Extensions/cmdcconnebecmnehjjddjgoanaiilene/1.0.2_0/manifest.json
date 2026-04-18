@@ -1,0 +1,22 @@
+{
+   "action": {
+      "default_icon": "icons/icon-enabled.png"
+   },
+   "background": {
+      "service_worker": "js/main.js"
+   },
+   "description": "Developers and users can switch JavaScript ON/OFF to block vulnerable JavaScript programs and test accessibility of the website",
+   "homepage_url": "https://mkdr390.github.io/javascript-switch",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA71Lu9R+8fiRGuNZFGIUJjMRYf480SKWrAs/bKjSBjIJ0LSLnQX3n79C/BAGPX6aUKwVCVtI8CdbnsHvdkFjXgE/WyB7picIcihFlzlcABOXkfhGqVtSoa2f4qdk4yCS+ZiZMLLq45CGIhiDgqQhjbTGGyeodJYA1dGadIgY08kUkIREREz8tF9V2mzOeKEljuvcAlLqyLlbJppt1R6k6Kr/I0nQiGk3jwJjvLmuOiiW3e9eR+veY7Yuwdr8N+UcdazT//ZGvTqDnMvtWdFW3/6g0QxEGL5hm8w4yKMwauWeRWa3MrdHzRWtuSJ8HBn3hBX0onMs2GzwNNnhoX4u7mQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88",
+   "name": "JavaScript Switch",
+   "permissions": [ "tabs", "contentSettings" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "1.0.2"
+}

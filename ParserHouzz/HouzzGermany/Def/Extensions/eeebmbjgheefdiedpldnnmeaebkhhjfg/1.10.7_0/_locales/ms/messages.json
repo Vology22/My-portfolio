@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Dapatkan akses ke mana-mana tapak web dan sekat iklan dengan sambungan proksi VPN percuma kami"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Proksi VPN dan penyekat iklan percuma - Planet VPN"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "Planet VPN (BETA) - Perkhidmatan VPN percuma"
+   }
+}
