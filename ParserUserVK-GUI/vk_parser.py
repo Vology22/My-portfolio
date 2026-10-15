@@ -108,7 +108,7 @@ def fucking_parse_vk(city, groups, token):
             base.append(i)
     return save_result_to_excel(base)
 if __name__ == "__main__":
-   fucking_parse_vk("-", ["https://vk.com/sch28hodec?from=groups"], '4ea20b134ea20b134ea20b13b74d9266c544ea24ea20b1326adf29140f17febf3101aa7')
+   fucking_parse_vk("-", ["https://vk.com/sch28hodec?from=groups"], os.getenv('VK_ACCESS_TOKEN', ''))
 
 
 
