@@ -38,7 +38,7 @@ account_delay = 10 * 60  # 10 минут по умолчанию
 
 # Конфигурация Telegram бота
 time_to_stop = 100**100
-bot_token = '7701414039:AAG-NEmha5l8us25r1b0ZbqwfcsKvXVMQnw'
+bot_token = os.getenv('BOT_TOKEN')
 admins = [968218637, 7226305438, 1743138840]  # Ваш ID
 account_delay = 10 * 60
 # Конфигурация рассыльщика

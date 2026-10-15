@@ -15,7 +15,7 @@ from telethon.tl.functions.account import UpdateProfileRequest
 from telethon.tl.functions.account import UpdateUsernameRequest  
 from telethon.tl.functions.photos import UploadProfilePhotoRequest
 import asyncio
-TOKEN = "8121977923:AAGolO6kLq4l4zsOQyrW-0IaQ4xXewZu7UQ"
+TOKEN = os.getenv('BOT_TOKEN')
 ADMIN_IDS = [6054849445, 5747767617, 968218637]  # ID администраторов
 PROXY_FILE = "proxy_smen.txt"
 SESSIONS_DIR = ".\\sessions_smen"

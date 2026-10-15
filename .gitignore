@@ -1,0 +1,19 @@
+# секреты и окружение
+.env
+*.session
+*.session-journal
+sessions*.txt
+proxy*.txt
+config.ini
+# данные и артефакты
+*.xlsx
+*.db
+*.log
+*.pkl
+__pycache__/
+venv/
+node_modules/
+build/
+dist/
+output/
+**/Def/

@@ -1,0 +1,5 @@
+vkbottle>=4.4,<5
+sqlalchemy>=2.0
+aiosqlite
+apscheduler>=3.10
+python-dotenv

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=1200">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link href="favicon.png" rel="icon">
+
+<title>Интерактивное расписание мехмата ЮФУ</title>
+
+
+<script>window.APIHOST = ''</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.full.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/i18n/ru.js"></script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.min.css" rel="stylesheet">
+<link href="//cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.min.css" rel="stylesheet">
+
+<script src="static/select2/js/select2-vue.js"></script>
+
+<link href="static/icons/css/icons.css" rel="stylesheet">
+
+<script src="static/helpers/js/helpers.js"></script>
+
+<script src="static/system/js/system.js"></script>
+
+<script src="static/api/js/api.js"></script>
+
+<script src="static/page/js/page.js"></script>
+<link href="static/page/css/page.css" rel="stylesheet">
+
+<script src="static/switcher/js/switcher.js"></script>
+
+<script src="static/schedule/js/schedule.js"></script>
+
+<script src="static/table/js/table.js"></script>
+<script src="static/table/js/tweaker.js"></script>
+<link href="static/table/css/table.css" rel="stylesheet">
+
+<script src="static/init/js/init.js"></script>
+
+
+<div class="page_header hidden-print">
+    <div class="container">
+        <div class="pull-left">
+            <span class="title" id="faculty"></span>
+            <span class="week" id="week"></span>
+        </div>
+        <div class="pull-right">
+            <a class="logo" href="http://sfedu.ru/"></a>
+        </div>
+    </div>
+</div>
+
+<div class="page_nav hidden-print">
+    <div class="container">
+        <div class="pull-left" id="switch" v-cloak>
+            <!--<select2 v-model="faculty" :options="faculties" v-if="faculty"></select2>-->
+            <select2 v-model="type" :options="types" v-if="type"></select2>
+            <select2 v-model="grade" :options="grades" v-if="grade"></select2>
+            <select2 v-model="day" :options="days" v-if="day"></select2>
+            <select2 v-model="group" :options="groups" v-if="group"></select2>
+            <select2 v-model="teacher" :options="teachers" v-if="teacher" :search="true"></select2>
+            <select2 v-model="room" :options="rooms" v-if="room" :search="true"></select2>
+        </div>
+        <div class="pull-right">
+            <span class="button icon-32 icon-32_print pull-left" id="print" title="Печать"></span>
+            <a class="button icon-32 icon-32_rooms pull-left" href="/rooms/" title="Аудиторный фонд"></a>
+            <a class="button icon-32 icon-32_profile pull-left" href="/admin/" title="Панель администратора"></a>
+        </div>
+    </div>
+</div>
+
+<div class="page_content">
+    <div class="container">
+        <div class="jumbotron" id="intro">
+            <h1>Добро пожаловать!</h1>
+            <p>Выберите тип расписания, затем курс, группу, день недели, преподавателя или аудиторию.</p>
+        </div>
+        <div id="schedule"></div>
+    </div>
+</div>
+
+<div class="page_footer hidden-print">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4 text-left"></div>
+            <div class="col-xs-4 text-center">
+                <span><a href="http://vk.com/public67527475">IT-лаборатория мехмата ЮФУ</a> © 2021</span>
+            </div>
+            <div class="col-xs-4 text-right">
+                <!--<span><a href="restapi">REST API</a></span> -->
+                <span><a href="http://play.google.com/store/apps/details?id=com.nolan.mmcs_schedule">Google Play</a></span>
+                <span><a href="https://icons8.com/">Icons8</a></span>
+                <span><a href="http://raxee.ru/">Raxee</a></span>
+            </div>
+        </div>
+    </div>
+</div>

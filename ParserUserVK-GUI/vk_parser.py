@@ -88,7 +88,6 @@ def save_result_to_excel(base):
     wb.save(filename)
     print(f"Результаты сохранены в {filename}")
     return filename
-#'4ea20b134ea20b134ea20b13b74d9266c544ea24ea20b1326adf29140f17febf3101aa7'
 def fucking_parse_vk(city, groups, token):
     vk_session = vk_api.VkApi(token=token)  # Если нужен доступ к методам API
     vk = vk_session.get_api()

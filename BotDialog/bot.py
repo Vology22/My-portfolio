@@ -10,7 +10,7 @@ from telethon.tl.functions.channels import JoinChannelRequest
 import asyncio
 
 # Конфигурация
-TOKEN = "7702716200:AAG2bzrveHbu9peU8xc-Tpac6i-sV225jtE"
+TOKEN = os.getenv('BOT_TOKEN')
 ADMIN_IDS = [6054849445, 5747767617, 968218637]  # ID администраторов
 PROXY_FILE = "proxy.txt"
 SESSIONS_DIR = "sessions"
